@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --cursor: crosshair
+        }
+
+        canvas {
+            cursor: var(--cursor) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="770" height="470"></canvas>
+    <!-- <input type="color" id="color" value="#ff0000">
+    <button id="btn1" onclick="INTERACTIVE.canvas_btn(1)">Tô vẽ</button>
+    <button id="btn2" onclick="INTERACTIVE.canvas_btn(2)">Chọn</button>
+    <button id="btn3" onclick="INTERACTIVE.canvas_btn(3)">Xóa</button> -->
+    <script src="https://chipchip.edu.vn/Js/iLCBuilder/fabric-5-2.js?v=3"></script>
+    <script src="https://chipchip.edu.vn/Js/iLCBuilder/fabricGif.js?v=3"></script>
+    <script src="https://chipchip.edu.vn/Js/iLCBuilder/fontfaceobserver.js?v=3"></script>
+    <script src="https://chipchip.edu.vn/Js/socket.io.js?v=3"></script>
+    <script src="https://chipchip.edu.vn/Js/iLCBuilder/interactive.js?v=3"></script>
+    <script src="https://chipchip.edu.vn/Js/iLCBuilder/controller.js?v=3"></script>
+    <script>
+        var statusTool = 1;
+        let drawing = false;
+        let drawMode = true;
+        let remove=false;
+        let roomID='123';
+        let cache_name = '';
+        let roleID=1;
+        let loading_src="https://chipchip.edu.vn/img/loading.gif"
+        var currentindex=1;
+        var canvas = this.__canvas = new fabric.Canvas('canvas', {
+            selection: false,
+           skipTargetFind: true,
+           enableRetinaScaling: false,
+        });
+        fabric.util.requestAnimFrame(function render() {
+            canvas.renderAll();
+            fabric.util.requestAnimFrame(render);
+        });
+        var lectureobj=null;
+        let defaultcolor='blue';
+        let brush = new fabric.PencilBrush(canvas);
+        // độ dày của màu
+        brush.color = 'blue';
+        brush.width = 3;
+        console.log('initial socket');
+
+        (function (global) {
+            function capitalize(string) {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
+
+            function pad(str, length) {
+                while (str.length < length) {
+                    str = '0' + str;
+                }
+                return str;
+            }
+
+            var getRandomInt = fabric.util.getRandomInt;
+            function getRandomColor() {
+                return (
+                    pad(getRandomInt(0, 255).toString(16), 2) +
+                    pad(getRandomInt(0, 255).toString(16), 2) +
+                    pad(getRandomInt(0, 255).toString(16), 2)
+                );
+            }
+
+            function getRandomNum(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            function setScale(scale) {
+                let sc = parseFloat(scale);
+                if (sc <= 1.0) {
+                    document.querySelector("meta[name=viewport]").setAttribute(
+                        'content',
+                        'width=device-width, initial-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=0');
+                } else {
+                    var d = document.getElementById('my-drawing')
+                    d.style.transform = 'scale(' + scale + ')'
+                }
+            }
+
+            function getRandomLeftTop() {
+                var offset = 50;
+                return {
+                    left: fabric.util.getRandomInt(0 + offset, 700 - offset),
+                    top: fabric.util.getRandomInt(0 + offset, 500 - offset)
+                };
+            }
+
+            var supportsInputOfType = function (type) {
+                return function () {
+                    var el = document.createElement('input');
+                    try {
+                        el.type = type;
+                    }
+                    catch (err) { }
+                    return el.type === type;
+                };
+            };
+
+            var supportsSlider = supportsInputOfType('range'),
+                supportsColorpicker = supportsInputOfType('color');
+
+            global.getRandomNum = getRandomNum;
+            global.getRandomInt = getRandomInt;
+            global.getRandomColor = getRandomColor;
+            global.getRandomLeftTop = getRandomLeftTop;
+            global.supportsSlider = supportsSlider;
+            global.supportsColorpicker = supportsColorpicker;
+            global.capitalize = capitalize;
+            global.setScale = setScale;
+
+            })(this);
+
+            function getRoomID(data){
+                INTERACTIVE.initial("https://app.chipchip.edu.vn:3001","Room-" +data.data);
+                cache_name = data.uID;
+            }
+
+            window.addEventListener('message', function(mess){
+                var data = JSON.parse(mess.data);
+                switch(data.cmd){
+                    case 'roomID':
+                        getRoomID(data);
+                        break;
+                    case 'contentLecture':
+                        lectureobj = data.data;
+                        break;
+                    default: 
+                        break;
+                }
+            })
+    </script>
+</body>
+</html>

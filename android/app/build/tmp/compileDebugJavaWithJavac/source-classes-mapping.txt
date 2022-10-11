@@ -1,0 +1,27 @@
+com/bookparty/ReactNativeFlipper.java
+ vn.edu.chipchip.childrenapp.ReactNativeFlipper
+ vn.edu.chipchip.childrenapp.ReactNativeFlipper$1
+ vn.edu.chipchip.childrenapp.ReactNativeFlipper$2
+ vn.edu.chipchip.childrenapp.ReactNativeFlipper$2$1
+vn/edu/chipchip/childrenapp/RecorderReactPackage.java
+ vn.edu.chipchip.childrenapp.RecorderReactPackage
+vn/edu/chipchip/childrenapp/RecorderManager.java
+ vn.edu.chipchip.childrenapp.RecorderManager
+vn/edu/chipchip/childrenapp/BuildConfig.java
+ vn.edu.chipchip.childrenapp.BuildConfig
+vn/edu/chipchip/childrenapp/MainActivity.java
+ vn.edu.chipchip.childrenapp.MainActivity
+ vn.edu.chipchip.childrenapp.MainActivity$1
+ vn.edu.chipchip.childrenapp.MainActivity$2
+ vn.edu.chipchip.childrenapp.MainActivity$3
+ vn.edu.chipchip.childrenapp.MainActivity$MediaProjectionCallback
+com/chipchipparo/ReactNativeFlipper.java
+ com.chipchipparo.ReactNativeFlipper
+ com.chipchipparo.ReactNativeFlipper$1
+ com.chipchipparo.ReactNativeFlipper$2
+ com.chipchipparo.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+vn/edu/chipchip/childrenapp/MainApplication.java
+ vn.edu.chipchip.childrenapp.MainApplication
+ vn.edu.chipchip.childrenapp.MainApplication$1

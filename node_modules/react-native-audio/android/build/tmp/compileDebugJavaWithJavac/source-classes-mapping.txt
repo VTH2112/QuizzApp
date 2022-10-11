@@ -1,0 +1,9 @@
+com/rnim/rn/audio/AudioRecorderManager.java
+ com.rnim.rn.audio.AudioRecorderManager
+ com.rnim.rn.audio.AudioRecorderManager$1
+com/rnim/rn/audio/ReactNativeAudioPackage.java
+ com.rnim.rn.audio.ReactNativeAudioPackage
+com/rnim/rn/audio/StopWatch.java
+ com.rnim.rn.audio.StopWatch
+com/rnim/rn/audio/BuildConfig.java
+ com.rnim.rn.audio.BuildConfig

@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.edu.chipchip.childrenapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:4:5-81
+13-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:5:5-65
+14-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:5:22-62
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:6:5-60
+16-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:6:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:7:5-69
+17-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:7:19-67
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:9:5-78
+19-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:10:5-80
+20-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:10:22-77
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:11:5-71
+21-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:11:22-68
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:12:5-68
+22-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:12:22-65
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:13:5-80
+23-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:13:22-77
+24    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+24-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:14:5-88
+24-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:14:22-85
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:15:5-77
+25-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:15:22-74
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+26-->[com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+27
+28    <queries>
+28-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+29        <intent>
+29-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+30-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+31        </intent>
+32    </queries> <!-- Required to access Google Play Licensing -->
+33    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+33-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+33-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:11:5-81
+34-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:11:22-78
+35    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:13:5-79
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:13:22-76
+36    <uses-permission android:name="android.permission.GET_TASKS" />
+36-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:14:5-68
+36-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:14:22-65
+37
+38    <application
+38-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:17:5-48:19
+39        android:name="vn.edu.chipchip.childrenapp.MainApplication"
+39-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:18:7-38
+40        android:allowBackup="false"
+40-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:23:7-34
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:fullBackupContent="@xml/appsflyer_backup_rules"
+43-->[com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:16:18-73
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:20:7-41
+45        android:label="@string/app_name"
+45-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:19:7-39
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:21:7-52
+47        android:theme="@style/AppTheme"
+47-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:24:7-38
+48        android:usesCleartextTraffic="true" >
+48-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:22:7-42
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:7-84
+49-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:17-81
+50        <activity
+50-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:25:7-45:18
+51            android:name="vn.edu.chipchip.childrenapp.MainActivity"
+51-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:27:9-37
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+52-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:30:9-79
+53            android:exported="true"
+53-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:28:9-32
+54            android:label="@string/app_name"
+54-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:29:9-41
+55            android:launchMode="singleTask"
+55-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:31:9-40
+56            android:screenOrientation="portrait"
+56-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:26:9-45
+57            android:windowSoftInputMode="adjustResize" >
+57-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:32:9-51
+58            <intent-filter>
+58-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:33:9-37:25
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:34:13-65
+59-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:34:21-62
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:35:13-73
+61-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:35:23-70
+62
+63                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+63-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:36:13-77
+63-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:36:21-75
+64            </intent-filter>
+65            <intent-filter android:autoVerify="true" >
+65-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:38:9-44:27
+65-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:38:24-49
+66                <action android:name="android.intent.action.VIEW" />
+66-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:39:15-67
+66-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:39:23-64
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:41:15-74
+68-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:41:25-71
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:42:15-76
+69-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:42:25-73
+70
+71                <data android:scheme="chipchipkids" />
+71-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:43:15-53
+71-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:43:21-50
+72            </intent-filter>
+73        </activity>
+74
+75        <service
+75-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:7-128
+76            android:name="com.reactnativerecordscreen.RecordScreenService"
+76-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:16-78
+77            android:foregroundServiceType="mediaProjection" />
+77-->C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:79-126
+78
+79        <provider
+79-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+80            android:name="androidx.core.content.FileProvider"
+80-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
+81            android:authorities="vn.edu.chipchip.childrenapp.provider"
+81-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+82            android:exported="false"
+82-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+83            android:grantUriPermissions="true" >
+83-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+84            <meta-data
+84-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+86                android:resource="@xml/provider_paths" />
+86-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+87        </provider>
+88
+89        <activity
+89-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+90            android:name="com.yalantis.ucrop.UCropActivity"
+90-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+91-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+92
+93        <provider
+93-->[:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+94            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+94-->[:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+95            android:authorities="vn.edu.chipchip.childrenapp.fileprovider"
+95-->[:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+96            android:exported="false"
+96-->[:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+100                android:resource="@xml/file_provider_paths" />
+100-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+101        </provider>
+102        <provider
+102-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+103            android:name="com.RNFetchBlob.Utils.FileProvider"
+103-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+104            android:authorities="vn.edu.chipchip.childrenapp.provider"
+104-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+105            android:exported="false"
+105-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+106            android:grantUriPermissions="true" >
+106-->[:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+107            <meta-data
+107-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+109                android:resource="@xml/provider_paths" />
+109-->[:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+110        </provider>
+111
+112        <meta-data
+112-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+113            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+113-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+114            android:value="GlideModule" />
+114-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+115
+116        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+116-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:17:9-92
+116-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:17:19-89
+117
+118        <service
+118-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:19:9-22:72
+119            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+119-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:20:13-80
+120            android:exported="true"
+120-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:21:13-36
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:22:13-69
+122
+123        <receiver
+123-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:24:9-31:20
+124            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
+124-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:25:13-77
+125            android:exported="false" >
+125-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:26:13-37
+126            <intent-filter>
+126-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:27:13-30:29
+127                <action android:name="android.intent.action.BOOT_COMPLETED" />
+127-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:28:17-79
+127-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:28:25-76
+128                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+128-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:29:17-84
+128-->[com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:29:25-81
+129            </intent-filter>
+130        </receiver>
+131    </application>
+132
+133</manifest>

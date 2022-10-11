@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="js/literallycanvas.css" rel="stylesheet" />
+    <script src="js/react-with-addons.js"></script>
+    <script src="js/react-dom.js"></script>
+    <script src="js/literallycanvas.js"></script>
+<style>
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.literally {
+    background-color: inherit;
+    min-height: 531px;
+}
+.lc-clear, .lc-color-pickers, .lc-picker, .lc-undo-redo, .lc-zoom, .literally .lc-options {
+    display: none;
+}
+.container{
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-drawing {
+    height: 531px;
+    width: 850px;
+    margin-top: -15px;
+    margin-left: -37px;
+}
+.board-l {
+    width: 837px;
+    height: 480px;
+    background: url(img/class-canvas.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.lesson-title{
+    position: absolute;
+    left: 31px;
+    top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #46b757;
+}
+</style>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="board-l">
+                <!-- <div class="lesson-title" id='lesson-name'>...</div> -->
+                <div class="my-drawing" id="my-drawing"></div>
+        </div>
+    </div>
+    <div style="display:none">
+        <div id="slider-v" class="slider-v"></div>
+    </div>
+<script>
+    var slides = document.getElementById('slider-v');
+    lc = LC.init(document.getElementsByClassName('my-drawing')[0],{
+         imageURLPrefix: 'img',
+         secondaryColor: 'hsla(0, 0%, 100%, 0)',
+         tools: [LC.tools.Pencil],
+         imageSize: { width: 0, height:500 },
+         primaryColor:'blue'
+     });
+     lc.on('shapeSave', function (args) {
+        if (args.shape == null)
+            return;
+        if(args.shape&&args.shape.image){
+            return;
+        }
+        var lcjson = LC.shapeToJSON(args.shape);
+        window.ReactNativeWebView.postMessage(JSON.stringify({ cmd: 'shape', data: lcjson }));
+    });
+    function setScale(scale){
+        let sc = parseFloat(scale);
+        if(sc <= 1.0){
+            document.querySelector("meta[name=viewport]").setAttribute(
+            'content', 
+            'width=device-width, initial-scale='+scale+', maximum-scale='+scale+', user-scalable=0');
+        }else{
+            var d = document.getElementById('my-drawing')
+            d.style.transform='scale('+scale+')'
+        }
+    }
+    function initImageSlides(arr){
+        var tmphtml = '';
+        for (var i = 0; i < arr.length; i++) {
+            tmphtml = tmphtml + "<img class='slider' data='"+ i +"' src='https://chipchip.edu.vn" + arr[i] + "'>";
+        }
+        slides.innerHTML = tmphtml;
+    }
+    function drawImage2(img){
+        lc.saveShape(LC.createShape('Image', { x: 0, y: -30, image: document.getElementsByClassName('slider')[img], scale: 1 }));
+    }
+    function drawImageUrl(url){
+        var img = new Image();
+        img.onload = function(){
+            lc.saveShape(LC.createShape('Image', { x: 0, y: -30, image: img, scale: 1 }));
+        };
+        img.src = url;
+    }
+    window.addEventListener("message",function(mess) {
+        var  data = JSON.parse(mess.data);
+        switch (data.cmd) {
+            case 'clear':
+                lc.clear(false);
+                break;
+            case 'undo':
+                lc.undo(false);
+                break;
+            case 'redo':
+                lc.redo(false);
+                break;
+            case 'primary':
+                lc.setColor('primary', data.data, false);
+                break;
+            case 'secondary':
+                lc.setColor('secondary', data.data, false);
+                break;
+            case 'background':
+                lc.setColor('background', data.data, false);
+                break;
+            case 'pan':
+                lc.setPan(data.data.x, data.data.y, false);
+                break;
+            case 'zoom':
+                lc.setZoom(data.data, false);
+                break;
+            case 'shape':
+                var shape = LC.JSONToShape(data.data);
+                lc.saveShape(shape, false);
+                break;
+            case 'star':
+                break;
+            case 'endClass':
+                break;
+            case 'slide':
+                drawImage2(parseInt(data.data))
+                break;
+            case 'initslide':
+                initImageSlides(data.data.split(';'))
+                break;
+            case 'lesson-name':
+                document.getElementById('lesson-name').innerText = data.data;
+                break;
+            case 'imgurl':
+                drawImageUrl(data.data);
+                break;
+            case 'drawbyid':
+                drawImage2(parseInt(data.data))
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+</body>

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-QuizzApp/Pods-QuizzApp-frameworks.sh
+${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/WebRTC.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignal.framework/OneSignal
