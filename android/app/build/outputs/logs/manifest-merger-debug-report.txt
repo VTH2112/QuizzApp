@@ -1,624 +1,643 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-MERGED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\b7816c315b0a8e5ef79001b4fd71afdf\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\fcdb38d73950391198ce2a4d2b3bac57\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-async-storage_async-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_cameraroll] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\cameraroll\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:react-native-audio] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-background-fetch] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-background-fetch\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-battery] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-battery\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-fast-image] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-fast-image\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-33:12
-MERGED from [:react-native-incall-manager] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-incall-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-keep-awake] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-linear-gradient] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-permissions] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-permissions\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-reanimated] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-restart] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-restart\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-sqlite-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sqlite-storage\platforms\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-svg] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-vector-icons] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-video] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-webrtc] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webrtc\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-45:12
-MERGED from [com.facebook.react:react-native:0.66.4] C:\Users\vuthe\.gradle\caches\transforms-3\2af960d3a8383004feef3ebbea8594bd\transformed\jetified-react-native-0.66.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:2:1-18:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7634b62dd3be76ed81f2af6d34738bd2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\vuthe\.gradle\caches\transforms-3\7e464a3810fb74dd4a98804ba900654b\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-audio-record] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio-record\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-sound] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sound\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-10:12
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\9b96a0e3676341a3214e0f67164b7de0\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5e94847ca4f07c7c7c39f89f24fe65a0\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\84b11e87e53493d4e94970364d200ef2\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\fdc8c82a4772c4ded148f6f8caf07b77\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\76f0de5d8e73f6f0ffe7f4ffa7bee2be\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a92dd7929e8e5bd14d213e0c15401a6c\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\8fd43f68adc7df113282f58834c04f84\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\57c1c943372492f0036191a3359f212f\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5bf6fbf21aeb1cab7482072a82a81afd\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6815f8c100710138903dcaa9f5e1ee04\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\vuthe\.gradle\caches\transforms-3\22179e7f5eabc15e5c42ff2dfe38c685\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\81b0d5cf1db2b1168aee2a3a6ada2403\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\821e6dc9f6284e8c313069db125ec46e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\dd15d26f432dfd2ad2d3797c44e2aeea\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6c3537fafe693f9c795099c1a876dcbc\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\vuthe\.gradle\caches\transforms-3\3de314778f9cfcc54bd61fd16414c14a\transformed\jetified-ucrop-2.2.6-native\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\bd6eba6d8e1025d0e0a02a52602a715d\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\98e84312dabb705dc29369a865c6fa91\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\de8e553703fd086121957d184da95a03\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\f8aac7610b5ce37e49b2f6171a595ff0\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a091bd05d445a9534fea012777aab860\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\0a53df3a788798c1d93078e5d6d26710\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:2:1-16:12
-MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\vuthe\.gradle\caches\transforms-3\25eb61ab6e4123e90e15f52d9c3bb239\transformed\jetified-oaid-6.2.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\50914a72388dc1fb3da2b78143f2cf38\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6626975594a49c549baaa0f240e71c5d\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\vuthe\.gradle\caches\transforms-3\3b3180fb3a2af0e7675c1e7efaafedf0\transformed\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\676ddd33c4e11dd9a57e94cff36c7974\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\a531bf369a3d202765c13ea356f09de8\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vuthe\.gradle\caches\transforms-3\646fbe07f910b8d94c9cde211e06f423\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vuthe\.gradle\caches\transforms-3\76fdc79cc1104153a212511635b17591\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\883e7c1fbbc5b93c4775e9466cae886c\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\1c345a489a2859cc480a6b3f2d60781c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\0faff0bc9896bb615222d77bbd0e8f74\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7f8a52833ba7767ee48c14e80fe174ba\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\d58a654995b0c893b9bb36cc05d84294\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\0e128791111cf80893e23fd56cf6d82e\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\442fb595051fa37d4c184af6ff1799b8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\d65a91e721ec72f2595d73e6fbfcc0a5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\5cc5fadfa82bd176426c401a89757d75\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\996cf7c50331a6554d75c747d73d01d7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\ac53d3d3e92c868298ccac38053ebfac\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\5be07dce26d8db2094066f52c2defd65\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\165134910557d420113f7f118ef97ef5\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\7a23b8d7ab15aca88944622d37cc0380\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\270fccca7c62d135c33a2c1071f4b270\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\a0a19945d40870d0ed6f69bbbfde4ce1\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\73cfd2022e1f64adb4bbdc6db73645a2\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\8f6ddcfdd5ec96e0d5791229162ff113\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\67d3bdbf4b44093486e8a0816e00ea6e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vuthe\.gradle\caches\transforms-3\b60db1c506226a7ff7cdae2bcff1e9db\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\85431a864fb08b9dd98838ac49cbb2b8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\9f94c01f43a57b0b789b28d59b244f7e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\dc667c512d03bcf77460518162254aa0\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\e97f2edca861939c5c63008a70daa737\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:2:1-34:12
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\vuthe\.gradle\caches\transforms-3\47c28510c32601c1b04fd08530b5f6c4\transformed\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:2:1-12:12
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\1a3eb52a78013366b83c637b2d76b9d3\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\238fc4fbfbba2cb059c5e10b5266798f\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/b7816c315b0a8e5ef79001b4fd71afdf/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fcdb38d73950391198ce2a4d2b3bac57/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_cameraroll] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/cameraroll/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-audio] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-incall-manager] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-incall-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-keep-awake] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-permissions] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-restart] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-sqlite-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-svg] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webrtc] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-45:12
+MERGED from [com.facebook.react:react-native:0.66.4] /Users/kietnguyendev/.gradle/caches/transforms-3/2af960d3a8383004feef3ebbea8594bd/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7634b62dd3be76ed81f2af6d34738bd2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/kietnguyendev/.gradle/caches/transforms-3/7e464a3810fb74dd4a98804ba900654b/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-audio-record] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio-record/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sound] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/9b96a0e3676341a3214e0f67164b7de0/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5e94847ca4f07c7c7c39f89f24fe65a0/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/84b11e87e53493d4e94970364d200ef2/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fdc8c82a4772c4ded148f6f8caf07b77/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/76f0de5d8e73f6f0ffe7f4ffa7bee2be/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a92dd7929e8e5bd14d213e0c15401a6c/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8fd43f68adc7df113282f58834c04f84/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57c1c943372492f0036191a3359f212f/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5bf6fbf21aeb1cab7482072a82a81afd/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6815f8c100710138903dcaa9f5e1ee04/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/kietnguyendev/.gradle/caches/transforms-3/22179e7f5eabc15e5c42ff2dfe38c685/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/81b0d5cf1db2b1168aee2a3a6ada2403/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/821e6dc9f6284e8c313069db125ec46e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/dd15d26f432dfd2ad2d3797c44e2aeea/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6c3537fafe693f9c795099c1a876dcbc/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/kietnguyendev/.gradle/caches/transforms-3/3de314778f9cfcc54bd61fd16414c14a/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/98e84312dabb705dc29369a865c6fa91/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/de8e553703fd086121957d184da95a03/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/f8aac7610b5ce37e49b2f6171a595ff0/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a091bd05d445a9534fea012777aab860/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0a53df3a788798c1d93078e5d6d26710/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.appsflyer:oaid:6.2.4] /Users/kietnguyendev/.gradle/caches/transforms-3/25eb61ab6e4123e90e15f52d9c3bb239/transformed/jetified-oaid-6.2.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/989b9ccb2dd322eed174477be8c93d2a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/50914a72388dc1fb3da2b78143f2cf38/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6626975594a49c549baaa0f240e71c5d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3b3180fb3a2af0e7675c1e7efaafedf0/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/676ddd33c4e11dd9a57e94cff36c7974/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a531bf369a3d202765c13ea356f09de8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/kietnguyendev/.gradle/caches/transforms-3/646fbe07f910b8d94c9cde211e06f423/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/kietnguyendev/.gradle/caches/transforms-3/76fdc79cc1104153a212511635b17591/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/883e7c1fbbc5b93c4775e9466cae886c/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1c345a489a2859cc480a6b3f2d60781c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0faff0bc9896bb615222d77bbd0e8f74/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7f8a52833ba7767ee48c14e80fe174ba/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d58a654995b0c893b9bb36cc05d84294/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0e128791111cf80893e23fd56cf6d82e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/442fb595051fa37d4c184af6ff1799b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d65a91e721ec72f2595d73e6fbfcc0a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5cc5fadfa82bd176426c401a89757d75/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/645588829fe6001d71fb6acfc9065a33/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac60eaad553ce3b178262d94987f7c93/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/996cf7c50331a6554d75c747d73d01d7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac53d3d3e92c868298ccac38053ebfac/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5be07dce26d8db2094066f52c2defd65/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/7a23b8d7ab15aca88944622d37cc0380/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/270fccca7c62d135c33a2c1071f4b270/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3931ce26e9e84c430ffa09a8eb4f4b83/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/dc667c512d03bcf77460518162254aa0/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/e97f2edca861939c5c63008a70daa737/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a0a19945d40870d0ed6f69bbbfde4ce1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/73cfd2022e1f64adb4bbdc6db73645a2/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8f6ddcfdd5ec96e0d5791229162ff113/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/67d3bdbf4b44093486e8a0816e00ea6e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kietnguyendev/.gradle/caches/transforms-3/b60db1c506226a7ff7cdae2bcff1e9db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/85431a864fb08b9dd98838ac49cbb2b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:2:1-33:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/kietnguyendev/.gradle/caches/transforms-3/d4499d70f79eb64014d7d45a13a5de01/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1a3eb52a78013366b83c637b2d76b9d3/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/238fc4fbfbba2cb059c5e10b5266798f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:2:3-40
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:2:3-40
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:2:3-40
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:2:3-40
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:1-49:12
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:3:5-67
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-67
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-67
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:13:5-67
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:13:5-67
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-67
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-67
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:13:5-67
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:3:22-64
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:4:5-81
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-81
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-81
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:4:5-81
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:5-81
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:5-81
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:4:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:5:22-62
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:5:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:6:5-60
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:6:5-60
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:6:19-57
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:6:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:7:5-69
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:7:5-69
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:7:19-67
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:7:19-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:9:5-78
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:14:5-79
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:14:5-79
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:9:5-78
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:14:5-79
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:11:5-71
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-71
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-71
-MERGED from [:react-native-audio-record] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio-record\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-71
-MERGED from [:react-native-audio-record] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio-record\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-71
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:11:5-71
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+MERGED from [:react-native-audio-record] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio-record/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-71
+MERGED from [:react-native-audio-record] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio-record/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-71
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:11:22-68
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:11:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:12:5-68
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:12:5-68
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:12:5-68
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:12:5-68
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:12:5-68
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:12:22-65
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:13:22-77
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:14:5-88
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:14:5-88
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:14:22-85
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:14:22-85
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:15:5-77
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:15:5-77
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:15:22-74
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:15:22-74
 application
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:17:5-48:19
-MERGED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:17:5-48:19
-MERGED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:17:5-48:19
-MERGED from [:react-native-background-fetch] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-background-fetch\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
-MERGED from [:react-native-background-fetch] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-background-fetch\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-31:19
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-31:19
-MERGED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-43:19
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-43:19
-MERGED from [com.facebook.react:react-native:0.66.4] C:\Users\vuthe\.gradle\caches\transforms-3\2af960d3a8383004feef3ebbea8594bd\transformed\jetified-react-native-0.66.4\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.react:react-native:0.66.4] C:\Users\vuthe\.gradle\caches\transforms-3\2af960d3a8383004feef3ebbea8594bd\transformed\jetified-react-native-0.66.4\AndroidManifest.xml:9:5-20
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:16:5-76
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:16:5-76
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\vuthe\.gradle\caches\transforms-3\22179e7f5eabc15e5c42ff2dfe38c685\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\vuthe\.gradle\caches\transforms-3\22179e7f5eabc15e5c42ff2dfe38c685\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\bd6eba6d8e1025d0e0a02a52602a715d\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\bd6eba6d8e1025d0e0a02a52602a715d\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:10:5-14:19
-MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:10:5-14:19
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\676ddd33c4e11dd9a57e94cff36c7974\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\676ddd33c4e11dd9a57e94cff36c7974\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\a0a19945d40870d0ed6f69bbbfde4ce1\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\a0a19945d40870d0ed6f69bbbfde4ce1\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vuthe\.gradle\caches\transforms-3\b60db1c506226a7ff7cdae2bcff1e9db\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vuthe\.gradle\caches\transforms-3\b60db1c506226a7ff7cdae2bcff1e9db\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:16:5-32:19
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:16:5-32:19
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:17:5-48:19
+MERGED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:17:5-48:19
+MERGED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:17:5-48:19
+MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-43:19
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-43:19
+MERGED from [com.facebook.react:react-native:0.66.4] /Users/kietnguyendev/.gradle/caches/transforms-3/2af960d3a8383004feef3ebbea8594bd/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.66.4] /Users/kietnguyendev/.gradle/caches/transforms-3/2af960d3a8383004feef3ebbea8594bd/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:9:5-20
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:16:5-76
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:16:5-76
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/kietnguyendev/.gradle/caches/transforms-3/22179e7f5eabc15e5c42ff2dfe38c685/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/kietnguyendev/.gradle/caches/transforms-3/22179e7f5eabc15e5c42ff2dfe38c685/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/989b9ccb2dd322eed174477be8c93d2a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/989b9ccb2dd322eed174477be8c93d2a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/676ddd33c4e11dd9a57e94cff36c7974/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/676ddd33c4e11dd9a57e94cff36c7974/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a0a19945d40870d0ed6f69bbbfde4ce1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a0a19945d40870d0ed6f69bbbfde4ce1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kietnguyendev/.gradle/caches/transforms-3/b60db1c506226a7ff7cdae2bcff1e9db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kietnguyendev/.gradle/caches/transforms-3/b60db1c506226a7ff7cdae2bcff1e9db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:15:5-31:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:15:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:19:7-39
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:19:7-39
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:19:7-39
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:19:7-39
 	android:fullBackupContent
-		ADDED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:16:18-73
+		ADDED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:16:18-73
 	tools:ignore
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:10:9-48
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:21:7-52
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:21:7-52
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:21:7-52
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:21:7-52
 	tools:targetApi
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:9:9-29
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:20:7-41
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:20:7-41
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:20:7-41
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:20:7-41
 	android:allowBackup
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:23:7-34
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:23:7-34
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:23:7-34
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:23:7-34
 	android:theme
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:24:7-38
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:24:7-38
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:24:7-38
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:24:7-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:22:7-42
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:22:7-42
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:18:7-38
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:18:7-38
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:18:7-38
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:18:7-38
 activity#vn.edu.chipchip.childrenapp.MainActivity
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:25:7-45:18
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:25:7-45:18
 	android:screenOrientation
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:26:9-45
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:26:9-45
 	android:label
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:29:9-41
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:29:9-41
 	android:launchMode
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:31:9-40
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:31:9-40
 	android:windowSoftInputMode
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:32:9-51
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:32:9-51
 	android:exported
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:28:9-32
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:28:9-32
 	android:configChanges
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:30:9-79
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:30:9-79
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:27:9-37
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:27:9-37
 intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:33:9-37:25
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:33:9-37:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:34:13-65
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:34:13-65
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:34:21-62
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:34:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:35:13-73
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:35:23-70
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:35:23-70
 action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:36:13-77
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:36:13-77
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:36:21-75
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:36:21-75
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:chipchipkids
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:38:9-44:27
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:38:9-44:27
 	android:autoVerify
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:38:24-49
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:38:24-49
 action#android.intent.action.VIEW
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:39:15-67
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:39:15-67
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:39:23-64
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:39:23-64
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:41:15-74
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:41:15-74
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:41:25-71
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:41:25-71
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:42:15-76
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:42:15-76
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:42:25-73
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:42:25-73
 data
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:43:15-53
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:43:15-53
 	android:scheme
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:43:21-50
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:43:21-50
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:7-84
-MERGED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:7-84
-MERGED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:7-84
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:7-84
+MERGED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:7-84
+MERGED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:7-84
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:46:17-81
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:17-81
 service#com.reactnativerecordscreen.RecordScreenService
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:7-128
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:7-128
 	android:foregroundServiceType
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:79-126
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:79-126
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml:47:16-78
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:16-78
 uses-sdk
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\b7816c315b0a8e5ef79001b4fd71afdf\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\b7816c315b0a8e5ef79001b4fd71afdf\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\fcdb38d73950391198ce2a4d2b3bac57\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\fcdb38d73950391198ce2a4d2b3bac57\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_cameraroll] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\cameraroll\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_cameraroll] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\cameraroll\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:54
-MERGED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:54
-MERGED from [:react-native-audio] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-audio] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-background-fetch] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-background-fetch\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-background-fetch] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-background-fetch\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-battery] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-battery\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-battery] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-battery\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-fast-image] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-fast-image\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-fast-image] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-fast-image\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-incall-manager] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-incall-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-incall-manager] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-incall-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-keep-awake] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-keep-awake] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-permissions] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-permissions\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-permissions] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-permissions\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-restart] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-restart\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-restart] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-restart\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sqlite-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sqlite-storage\platforms\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sqlite-storage] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sqlite-storage\platforms\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-svg] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-svg] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-video] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-video] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-webrtc] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webrtc\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-webrtc] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webrtc\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.66.4] C:\Users\vuthe\.gradle\caches\transforms-3\2af960d3a8383004feef3ebbea8594bd\transformed\jetified-react-native-0.66.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.66.4] C:\Users\vuthe\.gradle\caches\transforms-3\2af960d3a8383004feef3ebbea8594bd\transformed\jetified-react-native-0.66.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:8:5-11:54
-MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\vuthe\.gradle\caches\transforms-3\251be6929a86a2c69f38785f8b627d8d\transformed\jetified-af-android-sdk-6.3.2\AndroidManifest.xml:8:5-11:54
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7634b62dd3be76ed81f2af6d34738bd2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7634b62dd3be76ed81f2af6d34738bd2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\vuthe\.gradle\caches\transforms-3\7e464a3810fb74dd4a98804ba900654b\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r250230] C:\Users\vuthe\.gradle\caches\transforms-3\7e464a3810fb74dd4a98804ba900654b\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-audio-record] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio-record\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-audio-record] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-audio-record\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sound] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sound\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-sound] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-sound\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\9b96a0e3676341a3214e0f67164b7de0\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\9b96a0e3676341a3214e0f67164b7de0\transformed\jetified-flipper-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5e94847ca4f07c7c7c39f89f24fe65a0\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5e94847ca4f07c7c7c39f89f24fe65a0\transformed\jetified-stetho-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\84b11e87e53493d4e94970364d200ef2\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\84b11e87e53493d4e94970364d200ef2\transformed\jetified-fresco-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\fdc8c82a4772c4ded148f6f8caf07b77\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\fdc8c82a4772c4ded148f6f8caf07b77\transformed\jetified-soloader-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\76f0de5d8e73f6f0ffe7f4ffa7bee2be\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\76f0de5d8e73f6f0ffe7f4ffa7bee2be\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a92dd7929e8e5bd14d213e0c15401a6c\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a92dd7929e8e5bd14d213e0c15401a6c\transformed\jetified-drawee-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\8fd43f68adc7df113282f58834c04f84\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\8fd43f68adc7df113282f58834c04f84\transformed\jetified-nativeimagefilters-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\57c1c943372492f0036191a3359f212f\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\57c1c943372492f0036191a3359f212f\transformed\jetified-memory-type-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5bf6fbf21aeb1cab7482072a82a81afd\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\5bf6fbf21aeb1cab7482072a82a81afd\transformed\jetified-memory-type-java-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6815f8c100710138903dcaa9f5e1ee04\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6815f8c100710138903dcaa9f5e1ee04\transformed\jetified-imagepipeline-native-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\vuthe\.gradle\caches\transforms-3\22179e7f5eabc15e5c42ff2dfe38c685\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\vuthe\.gradle\caches\transforms-3\22179e7f5eabc15e5c42ff2dfe38c685\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\81b0d5cf1db2b1168aee2a3a6ada2403\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\81b0d5cf1db2b1168aee2a3a6ada2403\transformed\jetified-memory-type-ashmem-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\821e6dc9f6284e8c313069db125ec46e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\821e6dc9f6284e8c313069db125ec46e\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\dd15d26f432dfd2ad2d3797c44e2aeea\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\dd15d26f432dfd2ad2d3797c44e2aeea\transformed\jetified-nativeimagetranscoder-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6c3537fafe693f9c795099c1a876dcbc\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6c3537fafe693f9c795099c1a876dcbc\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\vuthe\.gradle\caches\transforms-3\3de314778f9cfcc54bd61fd16414c14a\transformed\jetified-ucrop-2.2.6-native\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\vuthe\.gradle\caches\transforms-3\3de314778f9cfcc54bd61fd16414c14a\transformed\jetified-ucrop-2.2.6-native\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\bd6eba6d8e1025d0e0a02a52602a715d\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\bd6eba6d8e1025d0e0a02a52602a715d\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\98e84312dabb705dc29369a865c6fa91\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\98e84312dabb705dc29369a865c6fa91\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\de8e553703fd086121957d184da95a03\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\de8e553703fd086121957d184da95a03\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\f8aac7610b5ce37e49b2f6171a595ff0\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\f8aac7610b5ce37e49b2f6171a595ff0\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a091bd05d445a9534fea012777aab860\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\a091bd05d445a9534fea012777aab860\transformed\jetified-middleware-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\0a53df3a788798c1d93078e5d6d26710\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\0a53df3a788798c1d93078e5d6d26710\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\vuthe\.gradle\caches\transforms-3\25eb61ab6e4123e90e15f52d9c3bb239\transformed\jetified-oaid-6.2.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\vuthe\.gradle\caches\transforms-3\25eb61ab6e4123e90e15f52d9c3bb239\transformed\jetified-oaid-6.2.4\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\50914a72388dc1fb3da2b78143f2cf38\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\50914a72388dc1fb3da2b78143f2cf38\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6626975594a49c549baaa0f240e71c5d\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\6626975594a49c549baaa0f240e71c5d\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\vuthe\.gradle\caches\transforms-3\3b3180fb3a2af0e7675c1e7efaafedf0\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\vuthe\.gradle\caches\transforms-3\3b3180fb3a2af0e7675c1e7efaafedf0\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\676ddd33c4e11dd9a57e94cff36c7974\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\676ddd33c4e11dd9a57e94cff36c7974\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\a531bf369a3d202765c13ea356f09de8\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\a531bf369a3d202765c13ea356f09de8\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vuthe\.gradle\caches\transforms-3\646fbe07f910b8d94c9cde211e06f423\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vuthe\.gradle\caches\transforms-3\646fbe07f910b8d94c9cde211e06f423\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vuthe\.gradle\caches\transforms-3\76fdc79cc1104153a212511635b17591\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vuthe\.gradle\caches\transforms-3\76fdc79cc1104153a212511635b17591\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\883e7c1fbbc5b93c4775e9466cae886c\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vuthe\.gradle\caches\transforms-3\883e7c1fbbc5b93c4775e9466cae886c\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\1c345a489a2859cc480a6b3f2d60781c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\1c345a489a2859cc480a6b3f2d60781c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\0faff0bc9896bb615222d77bbd0e8f74\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\0faff0bc9896bb615222d77bbd0e8f74\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7f8a52833ba7767ee48c14e80fe174ba\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\7f8a52833ba7767ee48c14e80fe174ba\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\d58a654995b0c893b9bb36cc05d84294\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\d58a654995b0c893b9bb36cc05d84294\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\0e128791111cf80893e23fd56cf6d82e\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\0e128791111cf80893e23fd56cf6d82e\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\442fb595051fa37d4c184af6ff1799b8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\442fb595051fa37d4c184af6ff1799b8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\d65a91e721ec72f2595d73e6fbfcc0a5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\d65a91e721ec72f2595d73e6fbfcc0a5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\5cc5fadfa82bd176426c401a89757d75\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\5cc5fadfa82bd176426c401a89757d75\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\68d2acbab16c2c76652c735ab5605fa4\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\996cf7c50331a6554d75c747d73d01d7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\996cf7c50331a6554d75c747d73d01d7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\ac53d3d3e92c868298ccac38053ebfac\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\ac53d3d3e92c868298ccac38053ebfac\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\5be07dce26d8db2094066f52c2defd65\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\5be07dce26d8db2094066f52c2defd65\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\165134910557d420113f7f118ef97ef5\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\165134910557d420113f7f118ef97ef5\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\7a23b8d7ab15aca88944622d37cc0380\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\7a23b8d7ab15aca88944622d37cc0380\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\270fccca7c62d135c33a2c1071f4b270\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\270fccca7c62d135c33a2c1071f4b270\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\a0a19945d40870d0ed6f69bbbfde4ce1\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\a0a19945d40870d0ed6f69bbbfde4ce1\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\73cfd2022e1f64adb4bbdc6db73645a2\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vuthe\.gradle\caches\transforms-3\73cfd2022e1f64adb4bbdc6db73645a2\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\8f6ddcfdd5ec96e0d5791229162ff113\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\8f6ddcfdd5ec96e0d5791229162ff113\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\67d3bdbf4b44093486e8a0816e00ea6e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\67d3bdbf4b44093486e8a0816e00ea6e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vuthe\.gradle\caches\transforms-3\b60db1c506226a7ff7cdae2bcff1e9db\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vuthe\.gradle\caches\transforms-3\b60db1c506226a7ff7cdae2bcff1e9db\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\85431a864fb08b9dd98838ac49cbb2b8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\85431a864fb08b9dd98838ac49cbb2b8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\9f94c01f43a57b0b789b28d59b244f7e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\9f94c01f43a57b0b789b28d59b244f7e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\dc667c512d03bcf77460518162254aa0\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vuthe\.gradle\caches\transforms-3\dc667c512d03bcf77460518162254aa0\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\e97f2edca861939c5c63008a70daa737\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vuthe\.gradle\caches\transforms-3\e97f2edca861939c5c63008a70daa737\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\vuthe\.gradle\caches\transforms-3\47c28510c32601c1b04fd08530b5f6c4\transformed\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\vuthe\.gradle\caches\transforms-3\47c28510c32601c1b04fd08530b5f6c4\transformed\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\1a3eb52a78013366b83c637b2d76b9d3\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\vuthe\.gradle\caches\transforms-3\1a3eb52a78013366b83c637b2d76b9d3\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\238fc4fbfbba2cb059c5e10b5266798f\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vuthe\.gradle\caches\transforms-3\238fc4fbfbba2cb059c5e10b5266798f\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/b7816c315b0a8e5ef79001b4fd71afdf/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/b7816c315b0a8e5ef79001b4fd71afdf/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fcdb38d73950391198ce2a4d2b3bac57/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fcdb38d73950391198ce2a4d2b3bac57/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_cameraroll] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/cameraroll/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_cameraroll] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/cameraroll/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-9:54
+MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-9:54
+MERGED from [:react-native-audio] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-audio] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-incall-manager] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-incall-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-incall-manager] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-incall-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-keep-awake] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-keep-awake] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sqlite-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sqlite-storage] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-video/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webrtc] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webrtc] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.66.4] /Users/kietnguyendev/.gradle/caches/transforms-3/2af960d3a8383004feef3ebbea8594bd/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.66.4] /Users/kietnguyendev/.gradle/caches/transforms-3/2af960d3a8383004feef3ebbea8594bd/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:8:5-11:54
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:8:5-11:54
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7634b62dd3be76ed81f2af6d34738bd2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7634b62dd3be76ed81f2af6d34738bd2/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/kietnguyendev/.gradle/caches/transforms-3/7e464a3810fb74dd4a98804ba900654b/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/kietnguyendev/.gradle/caches/transforms-3/7e464a3810fb74dd4a98804ba900654b/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-audio-record] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio-record/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-audio-record] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio-record/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sound] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/9b96a0e3676341a3214e0f67164b7de0/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/9b96a0e3676341a3214e0f67164b7de0/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5e94847ca4f07c7c7c39f89f24fe65a0/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5e94847ca4f07c7c7c39f89f24fe65a0/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/84b11e87e53493d4e94970364d200ef2/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/84b11e87e53493d4e94970364d200ef2/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fdc8c82a4772c4ded148f6f8caf07b77/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/fdc8c82a4772c4ded148f6f8caf07b77/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/76f0de5d8e73f6f0ffe7f4ffa7bee2be/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/76f0de5d8e73f6f0ffe7f4ffa7bee2be/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a92dd7929e8e5bd14d213e0c15401a6c/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a92dd7929e8e5bd14d213e0c15401a6c/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8fd43f68adc7df113282f58834c04f84/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8fd43f68adc7df113282f58834c04f84/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57c1c943372492f0036191a3359f212f/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57c1c943372492f0036191a3359f212f/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5bf6fbf21aeb1cab7482072a82a81afd/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5bf6fbf21aeb1cab7482072a82a81afd/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6815f8c100710138903dcaa9f5e1ee04/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6815f8c100710138903dcaa9f5e1ee04/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/kietnguyendev/.gradle/caches/transforms-3/22179e7f5eabc15e5c42ff2dfe38c685/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/kietnguyendev/.gradle/caches/transforms-3/22179e7f5eabc15e5c42ff2dfe38c685/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/81b0d5cf1db2b1168aee2a3a6ada2403/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/81b0d5cf1db2b1168aee2a3a6ada2403/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/821e6dc9f6284e8c313069db125ec46e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/821e6dc9f6284e8c313069db125ec46e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/dd15d26f432dfd2ad2d3797c44e2aeea/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/dd15d26f432dfd2ad2d3797c44e2aeea/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6c3537fafe693f9c795099c1a876dcbc/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6c3537fafe693f9c795099c1a876dcbc/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/kietnguyendev/.gradle/caches/transforms-3/3de314778f9cfcc54bd61fd16414c14a/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/kietnguyendev/.gradle/caches/transforms-3/3de314778f9cfcc54bd61fd16414c14a/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/98e84312dabb705dc29369a865c6fa91/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/98e84312dabb705dc29369a865c6fa91/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/de8e553703fd086121957d184da95a03/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/de8e553703fd086121957d184da95a03/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/f8aac7610b5ce37e49b2f6171a595ff0/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/f8aac7610b5ce37e49b2f6171a595ff0/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a091bd05d445a9534fea012777aab860/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a091bd05d445a9534fea012777aab860/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0a53df3a788798c1d93078e5d6d26710/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0a53df3a788798c1d93078e5d6d26710/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.appsflyer:oaid:6.2.4] /Users/kietnguyendev/.gradle/caches/transforms-3/25eb61ab6e4123e90e15f52d9c3bb239/transformed/jetified-oaid-6.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appsflyer:oaid:6.2.4] /Users/kietnguyendev/.gradle/caches/transforms-3/25eb61ab6e4123e90e15f52d9c3bb239/transformed/jetified-oaid-6.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/989b9ccb2dd322eed174477be8c93d2a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/989b9ccb2dd322eed174477be8c93d2a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/50914a72388dc1fb3da2b78143f2cf38/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/50914a72388dc1fb3da2b78143f2cf38/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6626975594a49c549baaa0f240e71c5d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/6626975594a49c549baaa0f240e71c5d/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3b3180fb3a2af0e7675c1e7efaafedf0/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3b3180fb3a2af0e7675c1e7efaafedf0/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/676ddd33c4e11dd9a57e94cff36c7974/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/676ddd33c4e11dd9a57e94cff36c7974/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a531bf369a3d202765c13ea356f09de8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a531bf369a3d202765c13ea356f09de8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/kietnguyendev/.gradle/caches/transforms-3/646fbe07f910b8d94c9cde211e06f423/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/kietnguyendev/.gradle/caches/transforms-3/646fbe07f910b8d94c9cde211e06f423/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/kietnguyendev/.gradle/caches/transforms-3/76fdc79cc1104153a212511635b17591/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/kietnguyendev/.gradle/caches/transforms-3/76fdc79cc1104153a212511635b17591/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/883e7c1fbbc5b93c4775e9466cae886c/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kietnguyendev/.gradle/caches/transforms-3/883e7c1fbbc5b93c4775e9466cae886c/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1c345a489a2859cc480a6b3f2d60781c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1c345a489a2859cc480a6b3f2d60781c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0faff0bc9896bb615222d77bbd0e8f74/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0faff0bc9896bb615222d77bbd0e8f74/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7f8a52833ba7767ee48c14e80fe174ba/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/7f8a52833ba7767ee48c14e80fe174ba/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d58a654995b0c893b9bb36cc05d84294/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d58a654995b0c893b9bb36cc05d84294/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0e128791111cf80893e23fd56cf6d82e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/0e128791111cf80893e23fd56cf6d82e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/442fb595051fa37d4c184af6ff1799b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/442fb595051fa37d4c184af6ff1799b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d65a91e721ec72f2595d73e6fbfcc0a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/d65a91e721ec72f2595d73e6fbfcc0a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5cc5fadfa82bd176426c401a89757d75/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5cc5fadfa82bd176426c401a89757d75/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/645588829fe6001d71fb6acfc9065a33/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/645588829fe6001d71fb6acfc9065a33/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac60eaad553ce3b178262d94987f7c93/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac60eaad553ce3b178262d94987f7c93/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/996cf7c50331a6554d75c747d73d01d7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/996cf7c50331a6554d75c747d73d01d7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac53d3d3e92c868298ccac38053ebfac/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/ac53d3d3e92c868298ccac38053ebfac/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5be07dce26d8db2094066f52c2defd65/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/5be07dce26d8db2094066f52c2defd65/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/7a23b8d7ab15aca88944622d37cc0380/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/7a23b8d7ab15aca88944622d37cc0380/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/270fccca7c62d135c33a2c1071f4b270/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/270fccca7c62d135c33a2c1071f4b270/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3931ce26e9e84c430ffa09a8eb4f4b83/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/3931ce26e9e84c430ffa09a8eb4f4b83/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/dc667c512d03bcf77460518162254aa0/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kietnguyendev/.gradle/caches/transforms-3/dc667c512d03bcf77460518162254aa0/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/e97f2edca861939c5c63008a70daa737/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kietnguyendev/.gradle/caches/transforms-3/e97f2edca861939c5c63008a70daa737/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a0a19945d40870d0ed6f69bbbfde4ce1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/a0a19945d40870d0ed6f69bbbfde4ce1/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/73cfd2022e1f64adb4bbdc6db73645a2/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/73cfd2022e1f64adb4bbdc6db73645a2/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8f6ddcfdd5ec96e0d5791229162ff113/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/8f6ddcfdd5ec96e0d5791229162ff113/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/67d3bdbf4b44093486e8a0816e00ea6e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/67d3bdbf4b44093486e8a0816e00ea6e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kietnguyendev/.gradle/caches/transforms-3/b60db1c506226a7ff7cdae2bcff1e9db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kietnguyendev/.gradle/caches/transforms-3/b60db1c506226a7ff7cdae2bcff1e9db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/85431a864fb08b9dd98838ac49cbb2b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/85431a864fb08b9dd98838ac49cbb2b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/kietnguyendev/.gradle/caches/transforms-3/d4499d70f79eb64014d7d45a13a5de01/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/kietnguyendev/.gradle/caches/transforms-3/d4499d70f79eb64014d7d45a13a5de01/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1a3eb52a78013366b83c637b2d76b9d3/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/1a3eb52a78013366b83c637b2d76b9d3/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/238fc4fbfbba2cb059c5e10b5266798f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/kietnguyendev/.gradle/caches/transforms-3/238fc4fbfbba2cb059c5e10b5266798f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:react-native-community_voice] C:\Users\vuthe\Desktop\QuizzApp\node_modules\@react-native-community\voice\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-51
+		ADDED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/@react-native-community/voice/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from C:\Users\vuthe\Desktop\QuizzApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from /Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-76
-MERGED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-76
+ADDED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-76
+MERGED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\vuthe\.gradle\caches\transforms-3\57a7d14530a0f303d49373fe006eb5be\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+		ADDED from [com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
 queries
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
 	android:name
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
 provider#androidx.core.content.FileProvider
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
 	android:authorities
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
 	android:exported
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
 	android:resource
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
 	android:name
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
 	android:theme
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from [:react-native-image-crop-picker] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+		ADDED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
 	android:exported
-		ADDED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-webview] C:\Users\vuthe\Desktop\QuizzApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+		ADDED from [:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
 uses-permission#com.android.vending.CHECK_LICENSE
-ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
 	android:name
-		ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+		ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
 provider#com.RNFetchBlob.Utils.FileProvider
-ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
 	android:grantUriPermissions
-		ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+		ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
 	android:authorities
-		ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+		ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
 	android:exported
-		ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+		ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from [:rn-fetch-blob] C:\Users\vuthe\Desktop\QuizzApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+		ADDED from [:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
 meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
-ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
 	android:value
-		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
 	android:name
-		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\vuthe\.gradle\caches\transforms-3\43e950b0c5fcb8ba1c66e1a599ee4c56\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:11:5-81
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:11:22-78
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.SCHEDULE_EXACT_ALARM
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:13:5-79
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:13:22-76
-uses-permission#android.permission.GET_TASKS
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:14:5-68
-	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:14:22-65
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:22-76
 receiver#com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:17:9-92
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:9-92
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:17:19-89
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:19-89
 service#com.transistorsoft.tsbackgroundfetch.FetchJobService
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:19:9-22:72
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:18:9-21:72
 	android:exported
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:21:13-36
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:20:13-36
 	android:permission
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:22:13-69
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:21:13-69
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:20:13-80
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:19:13-80
 receiver#com.transistorsoft.tsbackgroundfetch.BootReceiver
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:24:9-31:20
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:23:9-30:20
 	android:exported
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:26:13-37
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:25:13-77
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:24:13-77
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:27:13-30:29
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:28:17-79
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:17-79
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:28:25-76
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:25-76
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:29:17-84
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:17-84
 	android:name
-		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] C:\Users\vuthe\.gradle\caches\transforms-3\8d0b9c30ba033ec1c61463354d53b457\transformed\jetified-tsbackgroundfetch-0.5.5\AndroidManifest.xml:29:25-81
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:25-81

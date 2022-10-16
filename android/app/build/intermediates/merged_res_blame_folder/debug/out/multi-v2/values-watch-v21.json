@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\vuthe\\Desktop\\QuizzApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vuthe\\.gradle\\caches\\transforms-3\\98e84312dabb705dc29369a865c6fa91\\transformed\\appcompat-1.3.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "/Users/kietnguyendev/.gradle/caches/transforms-3/98e84312dabb705dc29369a865c6fa91/transformed/appcompat-1.3.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
