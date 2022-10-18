@@ -14,6 +14,7 @@ MERGED from [:react-native-community_voice] /Users/kietnguyendev/Desktop/QuizzAp
 MERGED from [:react-native-audio] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-config] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-config/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
@@ -341,6 +342,8 @@ MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzA
 MERGED from [:react-native-background-fetch] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-battery] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-battery/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-config] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-config/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-config] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-config/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-fast-image] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41

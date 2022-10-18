@@ -2007,6 +2007,7 @@ raw correct_3
 raw correct_4
 raw goo_job
 raw wrong
+string BASE_URL
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

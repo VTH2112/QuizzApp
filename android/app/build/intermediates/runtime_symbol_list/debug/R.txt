@@ -2006,6 +2006,7 @@ int raw correct_3 0x7f0f0005
 int raw correct_4 0x7f0f0006
 int raw goo_job 0x7f0f0007
 int raw wrong 0x7f0f0008
+int string BASE_URL 0x7f100092
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
 int string abc_action_menu_overflow_description 0x7f100002

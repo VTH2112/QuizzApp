@@ -25,6 +25,8 @@ import com.goodatlas.audiorecord.RNAudioRecordPackage;
 import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
 // react-native-battery
 import com.rctbattery.BatteryManagerPackage;
+// react-native-config
+import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 // react-native-fast-image
 import com.dylanvann.fastimage.FastImageViewPackage;
 // react-native-gesture-handler
@@ -115,6 +117,7 @@ public class PackageList {
       new RNAudioRecordPackage(),
       new RNBackgroundFetchPackage(),
       new BatteryManagerPackage(),
+      new ReactNativeConfigPackage(),
       new FastImageViewPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),

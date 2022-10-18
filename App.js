@@ -4,8 +4,22 @@ import { Provider } from 'react-redux';
 import { store } from './src/redux/store';
 import MainStack from './src/navigations/MainStack';
 import AuthStack from './src/navigations/AuthStack';
+import api from './src/api/api';
 
 export default function App() {
+  React.useEffect(() => {
+    getApi();
+  }, []);
+
+  const getApi = async () => {
+    try {
+      const res = await api.get('/john%203:16');
+      console.log(res.data);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
   return (
     <Provider store={store}>
       <NavigationContainer >
