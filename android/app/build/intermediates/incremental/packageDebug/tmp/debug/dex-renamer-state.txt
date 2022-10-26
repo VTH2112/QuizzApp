@@ -1,4 +1,4 @@
-#Tue Oct 18 13:07:42 ICT 2022
+#Wed Oct 26 16:17:30 ICT 2022
 path.4=10/classes.dex
 path.3=1/classes.dex
 path.2=0/classes.dex
@@ -7,19 +7,19 @@ path.7=0/classes2.dex
 path.6=classes2.dex
 path.5=14/classes.dex
 path.0=classes.dex
-base.4=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.3=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.2=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.1=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.0=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.3=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.2=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.0=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
 renamed.6=classes7.dex
-base.7=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex
+base.7=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex
 renamed.5=classes6.dex
-base.6=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.6=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 renamed.4=classes5.dex
-base.5=/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.5=/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kietnguyendev/Desktop/QuizzApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/Users/mac/ReactNative/QuizzApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/kietnguyendev/.gradle/caches/transforms-3/bd6eba6d8e1025d0e0a02a52602a715d/transformed/material-1.1.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "/Users/mac/.gradle/caches/transforms-3/9a86a252cd46ba41c945068ad6de23ad/transformed/material-1.1.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

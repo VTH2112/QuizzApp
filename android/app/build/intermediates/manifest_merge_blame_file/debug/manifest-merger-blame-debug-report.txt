@@ -9,258 +9,257 @@
 9        android:targetSdkVersion="31" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/mac/ReactNative/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/ReactNative/QuizzApp/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:3:5-67
-12-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:4:5-81
-13-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:4:22-78
+13-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:4:22-78
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:5:5-65
-14-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:5:22-62
+14-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:5:5-65
+14-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:5:22-62
 15
 16    <uses-feature android:name="android.hardware.camera" />
-16-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:6:5-60
-16-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:6:19-57
+16-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:6:5-60
+16-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:6:19-57
 17    <uses-feature android:name="android.hardware.camera.autofocus" />
-17-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:7:5-69
-17-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:7:19-67
+17-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:7:5-69
+17-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:7:19-67
 18
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:9:5-78
-19-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:9:22-76
+19-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:9:5-78
+19-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:9:22-76
 20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-20-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:10:5-80
-20-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:10:22-77
+20-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:10:5-80
+20-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:10:22-77
 21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-21-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:11:5-71
-21-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:11:22-68
+21-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:11:5-71
+21-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:11:22-68
 22    <uses-permission android:name="android.permission.WAKE_LOCK" />
-22-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:12:5-68
-22-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:12:22-65
+22-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:12:5-68
+22-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:12:22-65
 23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-23-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:13:5-80
-23-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:13:22-77
+23-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:13:5-80
+23-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:13:22-77
 24    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-24-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:14:5-88
-24-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:14:22-85
+24-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:14:5-88
+24-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:14:22-85
 25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-25-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:15:5-77
-25-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:15:22-74
+25-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:15:5-77
+25-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:15:22-74
 26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-26-->[com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
-26-->[com.facebook.flipper:flipper:0.99.0] /Users/kietnguyendev/.gradle/caches/transforms-3/57a7d14530a0f303d49373fe006eb5be/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+26-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-3/d27991a3ffd71e2bbf2bd8452f94909c/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+26-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-3/d27991a3ffd71e2bbf2bd8452f94909c/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
 27
 28    <queries>
-28-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+28-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
 29        <intent>
-29-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+29-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 30            <action android:name="android.media.action.IMAGE_CAPTURE" />
-30-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
-30-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+30-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+30-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
 31        </intent>
 32    </queries> <!-- Required to access Google Play Licensing -->
 33    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-33-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
-33-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+33-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+33-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
 34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-34-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:5-81
-34-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:22-78
+34-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:5-81
+34-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:11:22-78
 35    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-35-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:5-79
-35-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:22-76
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:5-79
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:13:22-76
 36
 37    <application
-37-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:17:5-48:19
+37-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:17:5-48:19
 38        android:name="vn.edu.chipchip.childrenapp.MainApplication"
-38-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:18:7-38
+38-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:18:7-38
 39        android:allowBackup="false"
-39-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:23:7-34
+39-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:23:7-34
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.5.0] /Users/kietnguyendev/.gradle/caches/transforms-3/68d2acbab16c2c76652c735ab5605fa4/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+40-->[androidx.core:core:1.5.0] /Users/mac/.gradle/caches/transforms-3/5b649065deaa1da62adbb889b319cf11/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
 42        android:fullBackupContent="@xml/appsflyer_backup_rules"
-42-->[com.appsflyer:af-android-sdk:6.3.2] /Users/kietnguyendev/.gradle/caches/transforms-3/abe70b63aad7ee4cd8f1059ebe2be554/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:16:18-73
+42-->[com.appsflyer:af-android-sdk:6.3.2] /Users/mac/.gradle/caches/transforms-3/f385e35e531a7ae3b3425628a02d4af9/transformed/jetified-af-android-sdk-6.3.2/AndroidManifest.xml:16:18-73
 43        android:icon="@mipmap/ic_launcher"
-43-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:20:7-41
+43-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:20:7-41
 44        android:label="@string/app_name"
-44-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:19:7-39
+44-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:19:7-39
 45        android:roundIcon="@mipmap/ic_launcher_round"
-45-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:21:7-52
-46        android:testOnly="true"
-47        android:theme="@style/AppTheme"
-47-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:24:7-38
-48        android:usesCleartextTraffic="true" >
-48-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:22:7-42
-49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-49-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:7-84
-49-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:46:17-81
-50        <activity
-50-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:25:7-45:18
-51            android:name="vn.edu.chipchip.childrenapp.MainActivity"
-51-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:27:9-37
-52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-52-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:30:9-79
-53            android:exported="true"
-53-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:28:9-32
-54            android:label="@string/app_name"
-54-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:29:9-41
-55            android:launchMode="singleTask"
-55-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:31:9-40
-56            android:screenOrientation="portrait"
-56-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:26:9-45
-57            android:windowSoftInputMode="adjustResize" >
-57-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:32:9-51
-58            <intent-filter>
-58-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:33:9-37:25
-59                <action android:name="android.intent.action.MAIN" />
-59-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:34:13-65
-59-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:34:21-62
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:35:13-73
-61-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:35:23-70
-62
-63                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-63-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:36:13-77
-63-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:36:21-75
-64            </intent-filter>
-65            <intent-filter android:autoVerify="true" >
-65-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:38:9-44:27
-65-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:38:24-49
-66                <action android:name="android.intent.action.VIEW" />
-66-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:39:15-67
-66-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:39:23-64
-67
-68                <category android:name="android.intent.category.DEFAULT" />
-68-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:41:15-74
-68-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:41:25-71
-69                <category android:name="android.intent.category.BROWSABLE" />
-69-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:42:15-76
-69-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:42:25-73
-70
-71                <data android:scheme="chipchipkids" />
-71-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:43:15-53
-71-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:43:21-50
-72            </intent-filter>
-73        </activity>
-74
-75        <service
-75-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:7-128
-76            android:name="com.reactnativerecordscreen.RecordScreenService"
-76-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:16-78
-77            android:foregroundServiceType="mediaProjection" />
-77-->/Users/kietnguyendev/Desktop/QuizzApp/android/app/src/main/AndroidManifest.xml:47:79-126
-78
-79        <provider
-79-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
-80            android:name="androidx.core.content.FileProvider"
-80-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
-81            android:authorities="vn.edu.chipchip.childrenapp.provider"
-81-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
-82            android:exported="false"
-82-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
-83            android:grantUriPermissions="true" >
-83-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
-84            <meta-data
-84-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
-85                android:name="android.support.FILE_PROVIDER_PATHS"
-85-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
-86                android:resource="@xml/provider_paths" />
-86-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
-87        </provider>
-88
-89        <activity
-89-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
-90            android:name="com.yalantis.ucrop.UCropActivity"
-90-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
-91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-91-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
-92
-93        <provider
-93-->[:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
-94            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-94-->[:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
-95            android:authorities="vn.edu.chipchip.childrenapp.fileprovider"
-95-->[:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
-96            android:exported="false"
-96-->[:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
-97            android:grantUriPermissions="true" >
-97-->[:react-native-webview] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
-98            <meta-data
-98-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
-99                android:name="android.support.FILE_PROVIDER_PATHS"
-99-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
-100                android:resource="@xml/file_provider_paths" />
-100-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
-101        </provider>
-102        <provider
-102-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
-103            android:name="com.RNFetchBlob.Utils.FileProvider"
-103-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
-104            android:authorities="vn.edu.chipchip.childrenapp.provider"
-104-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
-105            android:exported="false"
-105-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
-106            android:grantUriPermissions="true" >
-106-->[:rn-fetch-blob] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
-107            <meta-data
-107-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
-108                android:name="android.support.FILE_PROVIDER_PATHS"
-108-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
-109                android:resource="@xml/provider_paths" />
-109-->[:react-native-image-crop-picker] /Users/kietnguyendev/Desktop/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
-110        </provider>
-111
-112        <meta-data
-112-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
-113            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-113-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
-114            android:value="GlideModule" />
-114-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kietnguyendev/.gradle/caches/transforms-3/43e950b0c5fcb8ba1c66e1a599ee4c56/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
-115
-116        <provider
-116-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-117            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-117-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-118            android:authorities="vn.edu.chipchip.childrenapp.lifecycle-process"
-118-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-119            android:exported="false"
-119-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-120            android:multiprocess="true" />
-120-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kietnguyendev/.gradle/caches/transforms-3/cbd689968c3a3800f39e0d8bc4872528/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-121
-122        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
-122-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:9-92
-122-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:19-89
-123
-124        <service
-124-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:18:9-21:72
-125            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
-125-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:19:13-80
-126            android:exported="true"
-126-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:20:13-36
-127            android:permission="android.permission.BIND_JOB_SERVICE" />
-127-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:21:13-69
-128
-129        <receiver
-129-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:23:9-30:20
-130            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
-130-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:24:13-77
-131            android:exported="false" >
-131-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:25:13-37
-132            <intent-filter>
-132-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:26:13-29:29
-133                <action android:name="android.intent.action.BOOT_COMPLETED" />
-133-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:17-79
-133-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:25-76
-134                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-134-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:17-84
-134-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/kietnguyendev/.gradle/caches/transforms-3/3bd38f8871f4be63c5b155f4670fd224/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:25-81
-135            </intent-filter>
-136        </receiver>
-137    </application>
-138
-139</manifest>
+45-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:21:7-52
+46        android:theme="@style/AppTheme"
+46-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:24:7-38
+47        android:usesCleartextTraffic="true" >
+47-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:22:7-42
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+48-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:46:7-84
+48-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:46:17-81
+49        <activity
+49-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:25:7-45:18
+50            android:name="vn.edu.chipchip.childrenapp.MainActivity"
+50-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:27:9-37
+51            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+51-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:30:9-79
+52            android:exported="true"
+52-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:28:9-32
+53            android:label="@string/app_name"
+53-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:29:9-41
+54            android:launchMode="singleTask"
+54-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:31:9-40
+55            android:screenOrientation="portrait"
+55-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:26:9-45
+56            android:windowSoftInputMode="adjustResize" >
+56-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:32:9-51
+57            <intent-filter>
+57-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:33:9-37:25
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:34:13-65
+58-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:34:21-62
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:35:13-73
+60-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:35:23-70
+61
+62                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+62-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:36:13-77
+62-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:36:21-75
+63            </intent-filter>
+64            <intent-filter android:autoVerify="true" >
+64-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:38:9-44:27
+64-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:38:24-49
+65                <action android:name="android.intent.action.VIEW" />
+65-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:39:15-67
+65-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:39:23-64
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:41:15-74
+67-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:41:25-71
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:42:15-76
+68-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:42:25-73
+69
+70                <data android:scheme="chipchipkids" />
+70-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:43:15-53
+70-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:43:21-50
+71            </intent-filter>
+72        </activity>
+73
+74        <service
+74-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:47:7-128
+75            android:name="com.reactnativerecordscreen.RecordScreenService"
+75-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:47:16-78
+76            android:foregroundServiceType="mediaProjection" />
+76-->/Users/mac/ReactNative/QuizzApp/android/app/src/main/AndroidManifest.xml:47:79-126
+77
+78        <provider
+78-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+79            android:name="androidx.core.content.FileProvider"
+79-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+80            android:authorities="vn.edu.chipchip.childrenapp.provider"
+80-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+81            android:exported="false"
+81-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+82            android:grantUriPermissions="true" >
+82-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+83            <meta-data
+83-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+85                android:resource="@xml/provider_paths" />
+85-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+86        </provider>
+87
+88        <activity
+88-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+89            android:name="com.yalantis.ucrop.UCropActivity"
+89-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+90            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+90-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+91
+92        <provider
+92-->[:react-native-webview] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+93            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+93-->[:react-native-webview] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+94            android:authorities="vn.edu.chipchip.childrenapp.fileprovider"
+94-->[:react-native-webview] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+95            android:exported="false"
+95-->[:react-native-webview] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+96            android:grantUriPermissions="true" >
+96-->[:react-native-webview] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+97            <meta-data
+97-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+99                android:resource="@xml/file_provider_paths" />
+99-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+100        </provider>
+101        <provider
+101-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+102            android:name="com.RNFetchBlob.Utils.FileProvider"
+102-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+103            android:authorities="vn.edu.chipchip.childrenapp.provider"
+103-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+104            android:exported="false"
+104-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+105            android:grantUriPermissions="true" >
+105-->[:rn-fetch-blob] /Users/mac/ReactNative/QuizzApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+106            <meta-data
+106-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+108                android:resource="@xml/provider_paths" />
+108-->[:react-native-image-crop-picker] /Users/mac/ReactNative/QuizzApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+109        </provider>
+110
+111        <meta-data
+111-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/82d717bacc1d838f3fd1bbf859ccb035/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+112            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+112-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/82d717bacc1d838f3fd1bbf859ccb035/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+113            android:value="GlideModule" />
+113-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/82d717bacc1d838f3fd1bbf859ccb035/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+114
+115        <provider
+115-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mac/.gradle/caches/transforms-3/789caf52f0f2eb9703106b5cee15c77f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+116            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mac/.gradle/caches/transforms-3/789caf52f0f2eb9703106b5cee15c77f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+117            android:authorities="vn.edu.chipchip.childrenapp.lifecycle-process"
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mac/.gradle/caches/transforms-3/789caf52f0f2eb9703106b5cee15c77f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+118            android:exported="false"
+118-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mac/.gradle/caches/transforms-3/789caf52f0f2eb9703106b5cee15c77f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+119            android:multiprocess="true" />
+119-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mac/.gradle/caches/transforms-3/789caf52f0f2eb9703106b5cee15c77f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+120
+121        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+121-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:9-92
+121-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:16:19-89
+122
+123        <service
+123-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:18:9-21:72
+124            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+124-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:19:13-80
+125            android:exported="true"
+125-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:20:13-36
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:21:13-69
+127
+128        <receiver
+128-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:23:9-30:20
+129            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
+129-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:24:13-77
+130            android:exported="false" >
+130-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:25:13-37
+131            <intent-filter>
+131-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:26:13-29:29
+132                <action android:name="android.intent.action.BOOT_COMPLETED" />
+132-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:17-79
+132-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:27:25-76
+133                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+133-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:17-84
+133-->[com.transistorsoft:tsbackgroundfetch:0.5.6] /Users/mac/.gradle/caches/transforms-3/34d96255f1c9444eb06ab4f16eec7e33/transformed/jetified-tsbackgroundfetch-0.5.6/AndroidManifest.xml:28:25-81
+134            </intent-filter>
+135        </receiver>
+136    </application>
+137
+138</manifest>
