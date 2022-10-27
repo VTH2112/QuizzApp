@@ -1,14 +1,14 @@
 import React from 'react';
 import { StyleSheet, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeStack from './HomeStack';
 import StoreScreen from '../screens/StoreScreen';
 import LiveScreen from '../screens/LiveScreen';
+import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 
-const MainStack = () => {
+const BottomTabs = () => {
     return (
         <Tab.Navigator
             screenOptions={{
@@ -18,7 +18,7 @@ const MainStack = () => {
                 headerShown: false
             }}
         >
-            <Tab.Screen name="Home" component={HomeStack}
+            <Tab.Screen name="Home" component={HomeScreen}
                 options={{
                     tabBarIcon: ({ color }) => {
                         return <Image source={require('../img/homeIcon.png')} style={{ width: 21.09, height: 23.72, tintColor: color }} />
@@ -50,7 +50,7 @@ const MainStack = () => {
     )
 }
 
-export default MainStack;
+export default BottomTabs;
 
 const styles = StyleSheet.create({
     tabBarStyle: {
