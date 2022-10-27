@@ -12,8 +12,6 @@ const BeginnerScreen = ({ navigation }) => {
             headerShown: false,
         });
         console.log(geography);
-
-
     }, []);
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { Provider } from 'react-redux';
 import { store } from './src/redux/store';
-import MainStack from './src/navigations/MainStack';
+import HomeStack from './src/navigations/HomeStack';
 import AuthStack from './src/navigations/AuthStack';
 import api from './src/api/api';
 
@@ -24,7 +24,7 @@ export default function App() {
     <Provider store={store}>
       <NavigationContainer >
         {/* <AuthStack /> */}
-        <MainStack />
+        <HomeStack />
       </NavigationContainer>
     </Provider>
   )
