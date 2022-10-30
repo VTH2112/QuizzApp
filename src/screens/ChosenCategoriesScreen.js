@@ -1,21 +1,15 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect } from "react";
 import {
-  SafeAreaView,
   StyleSheet,
   Text,
   ImageBackground,
   View,
-  FlatList,
   TouchableOpacity,
   Image,
 } from "react-native";
-import { geography, history } from "../components/Question";
-import Options from "../components/Options";
-import moment from "moment";
+import { geography } from "../components/Question";
 
-const BeginnerScreen = ({ route, navigation }) => {
-  const { title } = route.params;
-
+const ChosenCategoriesScreen = ({ route, navigation }) => {
   useEffect(() => {
     navigation.setOptions({
       headerShown: false,
@@ -23,6 +17,8 @@ const BeginnerScreen = ({ route, navigation }) => {
     console.log(geography);
   }, []);
 
+  const { title } = route.params;
+  console.log(title);
   return (
     <ImageBackground
       source={require("../img/home_bg.png")}
@@ -41,19 +37,21 @@ const BeginnerScreen = ({ route, navigation }) => {
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.headerText}>CATEGORY: {title}</Text>
-          <Text style={styles.headerText}>Quiz: 1</Text>
         </View>
         <View style={styles.QuesContain}>
           <Image
             style={{ borderRadius: 45 }}
-            source={require("../img/img.png")}
+            width={180}
+            height={180}
+            source={require("../img/question.png")}
           />
         </View>
         <View style={styles.optionsContain}>
           <View style={styles.content}>
             <Text style={styles.contentText}>Duration: 5 min</Text>
-            <Text style={styles.contentText}>Question per quiz: 7</Text>
-            <Text style={styles.contentText}>Reward: 30 point</Text>
+            <Text style={styles.contentText}>Question per quiz: 5 - 7</Text>
+            <Text style={styles.contentText}>Reward: 150 Gems</Text>
+            <Text style={styles.contentText}>Best Score: 90 questions</Text>
           </View>
         </View>
         <View style={styles.bottom}>
@@ -66,7 +64,9 @@ const BeginnerScreen = ({ route, navigation }) => {
               paddingVertical: 15,
             }}
             onPress={() => {
-              navigation.navigate("QuestionScreen");
+              navigation.navigate("BeginnerScreen", {
+                title: title,
+              });
             }}
           >
             <Text
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   headerText: {
-    fontSize: 30,
+    fontSize: 26,
     fontWeight: "bold",
     color: "white",
     paddingHorizontal: 20,
@@ -110,7 +110,6 @@ const styles = StyleSheet.create({
   QuesContain: {
     width: "100%",
     height: "35%",
-    justifyContent: "center",
     alignItems: "center",
   },
   optionsContain: {
@@ -133,7 +132,6 @@ const styles = StyleSheet.create({
     height: "80%",
     justifyContent: "center",
     alignItems: "center",
-    paddingHorizontal: 20,
   },
   buttonContain: {
     width: "80%",
@@ -145,12 +143,10 @@ const styles = StyleSheet.create({
   },
   contentText: {
     fontSize: 23,
-    fontWeight: "bold",
     color: "white",
-    textAlign: "left",
     marginBottom: 5,
-    width: "58%",
+    width: "80%",
   },
 });
 
-export default BeginnerScreen;
+export default ChosenCategoriesScreen;
