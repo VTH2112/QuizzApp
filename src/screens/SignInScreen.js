@@ -1,14 +1,41 @@
 import React, { useEffect } from "react";
 import { SafeAreaView, StyleSheet, Text, TouchableOpacity, TextInput, View, ImageBackground } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import { useDispatch } from 'react-redux';
+import { addUserInfo } from '../redux/actions/addAction';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+
+import api from '../api/api';
 const SignInScreen = ({ navigation }) => {
     const [Password, onChangePassword] = React.useState('');
     const [Email, onChangeEmail] = React.useState('');
+    const [isLogin, setIsLogin] = React.useState(false);
+    const dispatch = useDispatch();
     useEffect(() => {
         navigation.setOptions({
             headerShown: false,
         });
     }, []);
+
+    const onLogin = async ({ Email, Password }) => {
+        try {
+            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/user/login', {
+                "email": `"${Email}"`,
+                "password": `"${Password}"`
+            });
+            dispatch(addUserInfo(res.data));
+            if (res.data.success == true) {
+                navigation.navigate('HomeStack');
+            } else {
+                alert("Email or Password is incorrect");
+            }
+
+            console.log(res.data);
+        } catch (err) {
+            console.log(err);
+        }
+    }
+
     return (
         <ImageBackground
             source={require('../img/BG.png')}
@@ -37,6 +64,11 @@ const SignInScreen = ({ navigation }) => {
                     top: 0,
                 }}></ImageBackground>
             <SafeAreaView style={styles.container}>
+                <TouchableOpacity style={{ position: "absolute", top: 20, left: 20 }} onPress={() => {
+                    navigation.navigate('SignUpScreen');
+                }}>
+                    <AntDesign name="arrowleft" size={30} color="#fff" />
+                </TouchableOpacity>
                 <View style={{ width: "80%", height: 372, justifyContent: "center", alignItems: "center", marginTop: 120 }}>
                     <View style={styles.Block}>
                     </View>
@@ -65,7 +97,19 @@ const SignInScreen = ({ navigation }) => {
                     </View>
                 </View>
                 <TouchableOpacity style={{ position: "absolute", width: "100%", backgroundColor: "rgba(255, 41, 131, 1)", bottom: 0, height: 80, alignItems: "center", justifyContent: "center" }}
-                    onPress={() => navigation.navigate('SignInScreen')}
+                    onPress={async () => {
+                        if (Email == "") {
+                            alert("Email is empty");
+                        }
+                        else if (Password == "") {
+                            alert("Password is empty");
+                        }
+                        else {
+                            onLogin(Email, Password)
+                        }
+
+
+                    }}
                 >
                     <Text style={{ fontSize: 28.14, color: "white" }} >
                         OKAY

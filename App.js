@@ -23,8 +23,8 @@ export default function App() {
   return (
     <Provider store={store}>
       <NavigationContainer >
-        {/* <AuthStack /> */}
-        <HomeStack />
+        <AuthStack />
+        {/* <HomeStack /> */}
       </NavigationContainer>
     </Provider>
   )

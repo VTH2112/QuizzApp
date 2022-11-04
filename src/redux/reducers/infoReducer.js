@@ -1,9 +1,7 @@
 
 const initialState = {
-    userInfo: [
-
-    ],
-
+    userInfo: [],
+    reward: 0,
 
 }
 export default function actionForReducers(state = initialState, action) {
@@ -13,9 +11,13 @@ export default function actionForReducers(state = initialState, action) {
             return {
                 ...state,
                 userInfo: [
-                    ...state.userInfo,
                     action.payload
                 ]
+            }
+        case "addReward":
+            return {
+                ...state,
+                reward: action.payload + state.reward
             }
         case "deleteUser":
             return {

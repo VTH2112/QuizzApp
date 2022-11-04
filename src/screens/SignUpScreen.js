@@ -1,18 +1,44 @@
 import React, { useEffect } from "react";
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, TextInput, Image, View, ImageBackground } from 'react-native';
+import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, TextInput, Image, View, ImageBackground, Alert } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import navigation from '@react-navigation/native';
+import api from '../api/api';
+import SignInScreen from "./SignInScreen";
+import AntDesign from 'react-native-vector-icons/AntDesign';
 const SignUpScreen = ({ navigation }) => {
-    const [FirstName, onChangeFirstName] = React.useState('');
-    const [LastName, onChangeLastName] = React.useState('');
+    const [userName, onChangeUserName] = React.useState('');
     const [Password, onChangePassword] = React.useState('');
-    const [Phone, onChangePhone] = React.useState('');
     const [Email, onChangeEmail] = React.useState('');
     useEffect(() => {
         navigation.setOptions({
             headerShown: false,
         });
     }, []);
+
+    const onSignUp = async ({ Email, userName, Password }) => {
+        console.log(Email, userName, Password);
+        try {
+            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/user/register', {
+                "email": `"${Email}"`,
+                "username": `"${userName}"`,
+                "password": `"${Password}"`
+            });
+            console.log(res.data);
+            if (res.data.success == true) {
+                Alert.alert("Thông báo", "Sign Up Success",
+                    [{
+                        text: "OK",
+                        onPress: () => navigation.navigate('SignInScreen')
+
+                    }]
+                );
+            } else {
+                alert("Email or Password is incorrect");
+            }
+        } catch (err) {
+            console.log(err);
+        }
+    }
     return (
         <ImageBackground
             source={require('../img/BG.png')}
@@ -41,6 +67,11 @@ const SignUpScreen = ({ navigation }) => {
                     top: 0,
                 }}></ImageBackground>
             <SafeAreaView style={styles.container}>
+                <TouchableOpacity style={{ position: "absolute", top: 20, left: 20 }} onPress={() => {
+                    navigation.navigate('WelcomeScreen');
+                }}>
+                    <AntDesign name="arrowleft" size={30} color="#fff" />
+                </TouchableOpacity>
                 <View style={{ width: "80%", height: 472, justifyContent: "center", alignItems: "center", marginTop: 20 }}>
                     <View style={styles.Block}>
                     </View>
@@ -53,15 +84,10 @@ const SignUpScreen = ({ navigation }) => {
                         </View>
                         <View style={{ width: "100%", marginTop: 10 }}>
                             <View style={styles.inputBlock}>
-                                <TextInput style={styles.input} placeholder="First Name" placeholderTextColor="rgba(88, 88, 88, 1)"
-                                    onChangeText={(text) => { onChangeFirstName(text) }}
-                                    value={FirstName}
+                                <TextInput style={styles.input} placeholder="User Name" placeholderTextColor="rgba(88, 88, 88, 1)"
+                                    onChangeText={(text) => { onChangeUserName(text) }}
+                                    value={userName}
                                 />
-                            </View>
-                            <View style={styles.inputBlock}>
-                                <TextInput style={styles.input} placeholder="Last Name" placeholderTextColor="rgba(88, 88, 88, 1)"
-                                    onChangeText={(text) => { onChangeLastName(text) }}
-                                    value={LastName} />
                             </View>
                             <View style={styles.inputBlock}>
                                 <TextInput style={styles.input} placeholder="Password" placeholderTextColor="rgba(88, 88, 88, 1)"
@@ -71,22 +97,49 @@ const SignUpScreen = ({ navigation }) => {
                                 />
                             </View>
                             <View style={styles.inputBlock}>
-                                <TextInput style={styles.input} placeholder="Phone" placeholderTextColor="rgba(88, 88, 88, 1)"
-                                    onChangeText={(text) => { onChangePhone(text) }}
-                                    value={Phone}
-                                />
-                            </View>
-                            <View style={styles.inputBlock}>
                                 <TextInput style={styles.input} placeholder="Email" placeholderTextColor="rgba(88, 88, 88, 1)"
                                     onChangeText={(text) => { onChangeEmail(text) }}
                                     value={Email}
                                 />
                             </View>
+                            <View style={{ justifyContent: "center", width: "100%", alignItems: "flex-end", height: 50, paddingRight: 40 }}>
+                                <TouchableOpacity style={{
+                                    backgroundColor: "#fff", padding: 5, borderRadius: 50, paddingHorizontal: 10,
+                                    shadowColor: "#000",
+                                    shadowOffset: {
+                                        width: 0,
+                                        height: 8,
+                                    },
+                                    shadowOpacity: 0.46,
+                                    shadowRadius: 11.14,
+
+                                    elevation: 17,
+                                }} onPress={() => { navigation.navigate(SignInScreen) }}>
+                                    <Text style={{ color: "black", fontSize: 15, }}>Login ?</Text>
+                                </TouchableOpacity>
+                            </View>
                         </View>
                     </View>
                 </View>
                 <TouchableOpacity style={{ position: "absolute", width: "100%", backgroundColor: "rgba(255, 41, 131, 1)", bottom: 0, height: 80, alignItems: "center", justifyContent: "center" }}
-                    onPress={() => navigation.navigate('SignInScreen')}
+                    onPress={() => {
+                        if (Email == "") {
+                            alert("Email must not be empty");
+                        }
+                        else if (Password == "") {
+                            alert("Password must not be empty");
+                        }
+                        else if (userName == "") {
+                            alert("User Name must not be empty");
+                        }
+                        else {
+                            console.log(Email, userName, Password);
+                            onSignUp({ Email, userName, Password })
+
+                        }
+
+
+                    }}
                 >
                     <Text style={{ fontSize: 28.14, color: "white" }} >
                         OKAY

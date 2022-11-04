@@ -1,14 +1,18 @@
 import React, { useEffect, useState, useRef } from "react";
-import { SafeAreaView, StyleSheet, Text, ImageBackground, View, FlatList, TouchableOpacity } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, ImageBackground, View, FlatList, TouchableOpacity, Alert } from 'react-native';
 import { geography, history } from '../components/Question';
 import Options from '../components/Options';
 import moment from 'moment';
-
-const QuestionScreen = ({ navigation }) => {
-
-    const [seconds, setSeconds] = useState(0);
-    const [minutes, setMinutes] = useState(5);
-
+import api from '../api/api';
+import { useDispatch, useSelector } from 'react-redux'
+import { addReward } from '../redux/actions/addAction'
+const QuestionScreen = ({ navigation, route }) => {
+    const dispatch = useDispatch();
+    const [seconds, setSeconds] = useState(route.params.duration % 60);
+    const [minutes, setMinutes] = useState(route.params.duration < 60 ? 0 : (route.params.duration / 60).toFixed());
+    let getListQues = route.params.getListQues;
+    const reward = useSelector((state) => state.userInfo.reward)
+    const [point, setPoint] = useState(0);
     useEffect(() => {
         let interval = null;
         if (minutes !== 0 || seconds !== 0) {
@@ -35,6 +39,7 @@ const QuestionScreen = ({ navigation }) => {
 
     }, []);
 
+
     const [index, setIndex] = React.useState(0);
     const [isSelect, setIsSelect] = React.useState('');
     const renderQuestion = ({ item, index }) => {
@@ -46,12 +51,11 @@ const QuestionScreen = ({ navigation }) => {
                     setIsSelect(index)
                 }}
             >
-                <Options quesNum={quesNum} item={item} index={index} isSelect={isSelect} />
+                <Options quesNum={quesNum} ansLength={quesNum.length} item={item} index={index} isSelect={isSelect} />
             </TouchableOpacity>
 
         )
     }
-
     return (
         <ImageBackground
             source={require('../img/home_bg.png')}
@@ -60,34 +64,61 @@ const QuestionScreen = ({ navigation }) => {
             </View>
             <View style={styles.container}>
                 <View style={styles.header}>
-                    <Text style={styles.headerText}>Question {index + 1} of {geography.length}</Text>
+                    <Text style={styles.headerText}>Question {index + 1} of {getListQues.length}</Text>
                 </View>
                 <View style={styles.QuesContain}>
-                    <Text style={{ color: "#fff", fontSize: 25, paddingHorizontal: 20 }}>{geography[index].question}</Text>
+                    <Text style={{ color: "#fff", fontSize: 25, paddingHorizontal: 20 }}>{getListQues.length > 0 ? getListQues[index].question : null}</Text>
                 </View>
                 <View style={styles.optionsContain}>
                     <View style={styles.content}>
                         <FlatList
-                            data={geography[index].options}
+                            data={getListQues[index]?.answers}
                             renderItem={renderQuestion}
                         />
                     </View>
                     <View style={styles.button}>
-                        <TouchableOpacity style={styles.buttonContain}
-                            onPress={() => {
-                                if (index < geography.length - 1) {
-                                    setIndex(index + 1);
-                                    setIsSelect('');
-                                }
-                            }}
-                        >
-                            <Text style={{ color: "#fff", fontSize: 18 }}>Next</Text>
-                        </TouchableOpacity>
+                        {
+                            index === getListQues.length - 1 ?
+                                <TouchableOpacity style={styles.buttonContain}
+                                    onPress={() => {
+                                        if (isSelect !== '') {
+                                            if (getListQues[index].answers[isSelect].is_correct === true) {
+                                                dispatch(addReward(parseInt(getListQues[index].reward)))
+                                            }
+                                        }
+                                        else {
+                                            dispatch(addReward(0))
+                                        }
+                                        navigation.navigate('RewardScreen')
+                                    }}
+                                >
+                                    <Text style={{ color: "#fff", fontSize: 18 }}>Submit</Text>
+                                </TouchableOpacity>
+                                :
+                                <TouchableOpacity style={styles.buttonContain}
+                                    onPress={() => {
+                                        if (index < getListQues.length - 1) {
+                                            setIndex(index + 1);
+                                            setIsSelect('');
+                                        }
+                                        if (isSelect !== '') {
+                                            if (getListQues[index].answers[isSelect].is_correct === true) {
+                                                dispatch(addReward(parseInt(getListQues[index].reward)))
+                                            }
+                                        }
+                                        else {
+                                            dispatch(addReward(0))
+                                        }
+                                    }}
+                                >
+                                    <Text style={{ color: "#fff", fontSize: 18 }}>Next</Text>
+                                </TouchableOpacity>
+                        }
                     </View>
                 </View>
                 <View style={styles.bottom}>
                     <View style={styles.countDown}>
-                        <Text style={{ color: "#fff", fontSize: 25 }}> {minutes} : {seconds < 10 ? "0" + seconds : seconds} Min Left</Text>
+                        <Text style={{ color: "#fff", fontSize: 25 }}> {minutes} : {seconds < 10 ? "0" + seconds : seconds} {route.params.duration < 60 ? "Sec" : "Min"} Left</Text>
                     </View>
                 </View>
             </View>

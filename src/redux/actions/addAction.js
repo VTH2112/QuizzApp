@@ -5,3 +5,10 @@ export const addUserInfo = (data) => {
         payload: data,
     }
 }
+
+export const addReward = (data) => {
+    return {
+        type: "addReward",
+        payload: data,
+    }
+}

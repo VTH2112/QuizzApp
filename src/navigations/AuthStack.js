@@ -4,6 +4,7 @@ import WelcomeScreen from '../screens/WelcomeScreen';
 import SignInScreen from '../screens/SignInScreen';
 import SignUpScreen from '../screens/SignUpScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeStack from './HomeStack';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,7 +14,7 @@ const AuthStack = () => {
             <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} option={{ title: 'WelcomeScreen' }} />
             <Stack.Screen name="SignInScreen" component={SignInScreen} option={{ title: 'SignInScreen' }} />
             <Stack.Screen name="SignUpScreen" component={SignUpScreen} option={{ title: 'SignUpScreen' }} />
-            <Stack.Screen name="HomeStack" component={HomeScreen} option={{ title: 'HomeScreen' }} />
+            <Stack.Screen name="HomeStack" component={HomeStack} option={{ title: 'HomeScreen' }} />
         </Stack.Navigator>
 
     )

@@ -3,17 +3,44 @@ import { SafeAreaView, StyleSheet, Text, ImageBackground, View, FlatList, Toucha
 import { geography, history } from '../components/Question';
 import Options from '../components/Options';
 import moment from 'moment';
+import api from '../api/api';
+import { min } from "react-native-reanimated";
 
 const BeginnerScreen = ({ navigation }) => {
 
-
+    const [getListQues, setListQues] = useState([]);
+    const [reward, setReward] = useState(0);
+    const [time, setTime] = useState(0);
     useEffect(() => {
         navigation.setOptions({
             headerShown: false,
         });
         console.log(geography);
+
+        getListQuiz()
     }, []);
 
+    const getListQuiz = async () => {
+        var temp = 0
+        var point = 0
+        try {
+            const res = await api.get('https://backend-quiz-mindx.herokuapp.com/questions/');
+            console.log('lisstQuiz', res.data.data);
+
+            setListQues(res.data.data)
+            res.data.data.forEach((item, index) => {
+
+                var time = item.duration.replace('s', '')
+                temp = temp + parseInt(time)
+                point = point + parseInt(item.reward)
+            })
+            setReward(point)
+            setTime(temp)
+
+        } catch (err) {
+            console.log(err);
+        }
+    }
 
     return (
         <ImageBackground
@@ -31,25 +58,29 @@ const BeginnerScreen = ({ navigation }) => {
                 </View>
                 <View style={styles.optionsContain}>
                     <View style={styles.content}>
-                        <Text style={styles.contentText}>Duration: 5 min</Text>
-                        <Text style={styles.contentText}>Question per quiz: 7</Text>
-                        <Text style={styles.contentText}>Reward: 30 point</Text>
+                        <Text style={styles.contentText}>Duration: {time > 60 ? ((time / 60).toFixed() + ' min ' + (time % 60) + ' s') : (time % 60) + ' sec'} </Text>
+                        <Text style={styles.contentText}>Question per quiz: {getListQues.length}</Text>
+                        <Text style={styles.contentText}>Reward: {reward} point</Text>
                     </View>
                 </View>
                 <View style={styles.bottom}>
-                    <TouchableOpacity style={{
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "#FF2983",
-                        alignItems: "center",
-                        paddingVertical: 15,
-                    }}
-                        onPress={() => {
-                            navigation.navigate('QuestionScreen')
-                        }}
-                    >
-                        <Text style={{ color: "#fff", fontSize: 20, fontWeight: "bold", alignSelf: "center" }}>Start</Text>
-                    </TouchableOpacity>
+                    {
+                        getListQues.length > 0 ?
+                            <TouchableOpacity style={{
+                                width: "100%",
+                                height: "100%",
+                                backgroundColor: "#FF2983",
+                                alignItems: "center",
+                                paddingVertical: 15,
+                            }}
+                                onPress={() => {
+                                    navigation.navigate('QuestionScreen', { getListQues: getListQues, duration: time })
+                                }}
+                            >
+                                <Text style={{ color: "#fff", fontSize: 20, fontWeight: "bold", alignSelf: "center" }}>Start</Text>
+                            </TouchableOpacity>
+                            : null
+                    }
                 </View>
             </View>
 
