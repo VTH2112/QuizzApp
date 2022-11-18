@@ -3,12 +3,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuestionScreen from '../screens/QuestionScreen';
 import BeginnerScreen from '../screens/BeginnerScreen';
 import RewardScreen from '../screens/RewardScreen';
+import ScoreBoardScreen from '../screens/ScoreboardScreen';
 import BottomTabs from './BottomTabs';
 import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createNativeStackNavigator();
 
-const HomeStack = ({navigation}) => {
+const HomeStack = ({ navigation }) => {
     React.useEffect(() => {
         navigation.setOptions({
             headerShown: false,
@@ -20,6 +21,8 @@ const HomeStack = ({navigation}) => {
             <Stack.Screen name="BeginnerScreen" component={BeginnerScreen} option={{ title: 'BeginnerScreen' }} />
             <Stack.Screen name="QuestionScreen" component={QuestionScreen} option={{ title: 'QuestionScreen' }} />
             <Stack.Screen name="RewardScreen" component={RewardScreen} option={{ title: 'QuestionScreen' }} />
+            <Stack.Screen name="ScoreBoardScreen" component={ScoreBoardScreen} option={{ title: 'ScoreBoardScreen' }} />
+
         </Stack.Navigator>
     )
 }

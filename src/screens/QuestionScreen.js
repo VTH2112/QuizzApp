@@ -5,7 +5,7 @@ import Options from '../components/Options';
 import moment from 'moment';
 import api from '../api/api';
 import { useDispatch, useSelector } from 'react-redux'
-import { addReward } from '../redux/actions/addAction'
+import { addReward, addQuesCorrect } from '../redux/actions/addAction'
 const QuestionScreen = ({ navigation, route }) => {
     const dispatch = useDispatch();
     const [seconds, setSeconds] = useState(route.params.duration % 60);
@@ -13,6 +13,7 @@ const QuestionScreen = ({ navigation, route }) => {
     let getListQues = route.params.getListQues;
     const reward = useSelector((state) => state.userInfo.reward)
     const [point, setPoint] = useState(0);
+    let quesCorrect = 0;
     useEffect(() => {
         let interval = null;
         if (minutes !== 0 || seconds !== 0) {
@@ -25,7 +26,7 @@ const QuestionScreen = ({ navigation, route }) => {
             }
         } else if (minutes === 0 && seconds === 0) {
             clearInterval(interval);
-            alert('Time is up');
+            // alert('Time is up');
         }
         return () => clearInterval(interval);
     }, [seconds]);
@@ -83,13 +84,24 @@ const QuestionScreen = ({ navigation, route }) => {
                                     onPress={() => {
                                         if (isSelect !== '') {
                                             if (getListQues[index].answers[isSelect].is_correct === true) {
-                                                dispatch(addReward(parseInt(getListQues[index].reward)))
+                                                // dispatch(addReward(parseInt(getListQues[index].reward)))
+                                                dispatch(addReward({
+                                                    quesCorrect: quesCorrect + 1,
+                                                    reward: parseInt(getListQues[index].reward)
+                                                }))
+
                                             }
                                         }
                                         else {
-                                            dispatch(addReward(0))
+                                            dispatch(addReward({
+                                                quesCorrect: 0,
+                                                reward: 0
+                                            }))
+                                            // dispatch(addQuesCorrect(0))
                                         }
-                                        navigation.navigate('RewardScreen')
+                                        setMinutes(0);
+                                        setSeconds(0);
+                                        navigation.navigate('RewardScreen', { getListQuesLength: getListQues.length })
                                     }}
                                 >
                                     <Text style={{ color: "#fff", fontSize: 18 }}>Submit</Text>
@@ -103,11 +115,17 @@ const QuestionScreen = ({ navigation, route }) => {
                                         }
                                         if (isSelect !== '') {
                                             if (getListQues[index].answers[isSelect].is_correct === true) {
-                                                dispatch(addReward(parseInt(getListQues[index].reward)))
+                                                dispatch(addReward({
+                                                    quesCorrect: quesCorrect + 1,
+                                                    reward: parseInt(getListQues[index].reward)
+                                                }))
                                             }
                                         }
                                         else {
-                                            dispatch(addReward(0))
+                                            dispatch(addReward({
+                                                quesCorrect: 0,
+                                                reward: 0
+                                            }))
                                         }
                                     }}
                                 >
@@ -182,9 +200,10 @@ const styles = StyleSheet.create({
     },
     countDown: {
         width: "100%",
-        height: "100%",
+        height: "70%",
         backgroundColor: "#FF2983",
         alignItems: "center",
+        justifyContent: "center",
         paddingVertical: 15,
     }
 

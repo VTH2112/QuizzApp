@@ -12,3 +12,9 @@ export const addReward = (data) => {
         payload: data,
     }
 }
+export const addQuesCorrect = (data) => {
+    return {
+        type: "addQuesCorrect",
+        payload: data,
+    }
+}

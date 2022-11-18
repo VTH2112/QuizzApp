@@ -68,9 +68,10 @@ const BeginnerScreen = ({ navigation }) => {
                         getListQues.length > 0 ?
                             <TouchableOpacity style={{
                                 width: "100%",
-                                height: "100%",
+                                height: "70%",
                                 backgroundColor: "#FF2983",
                                 alignItems: "center",
+                                justifyContent: "center",
                                 paddingVertical: 15,
                             }}
                                 onPress={() => {

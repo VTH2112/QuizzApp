@@ -19,7 +19,7 @@ const SignInScreen = ({ navigation }) => {
 
     const onLogin = async ({ Email, Password }) => {
         try {
-            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/user/login', {
+            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/auth/login', {
                 "email": `"${Email}"`,
                 "password": `"${Password}"`
             });
@@ -105,7 +105,7 @@ const SignInScreen = ({ navigation }) => {
                             alert("Password is empty");
                         }
                         else {
-                            onLogin(Email, Password)
+                            onLogin({Email, Password})
                         }
 
 

@@ -18,7 +18,7 @@ const SignUpScreen = ({ navigation }) => {
     const onSignUp = async ({ Email, userName, Password }) => {
         console.log(Email, userName, Password);
         try {
-            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/user/register', {
+            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/auth/register', {
                 "email": `"${Email}"`,
                 "username": `"${userName}"`,
                 "password": `"${Password}"`
