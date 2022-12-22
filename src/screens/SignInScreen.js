@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { SafeAreaView, StyleSheet, Text, TouchableOpacity, TextInput, View, ImageBackground } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, TouchableOpacity, TextInput, View, ImageBackground, Alert } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import { useDispatch } from 'react-redux';
 import { addUserInfo } from '../redux/actions/addAction';
@@ -10,6 +10,7 @@ const SignInScreen = ({ navigation }) => {
     const [Password, onChangePassword] = React.useState('');
     const [Email, onChangeEmail] = React.useState('');
     const [isLogin, setIsLogin] = React.useState(false);
+
     const dispatch = useDispatch();
     useEffect(() => {
         navigation.setOptions({
@@ -17,9 +18,11 @@ const SignInScreen = ({ navigation }) => {
         });
     }, []);
 
+    
+
     const onLogin = async ({ Email, Password }) => {
         try {
-            const res = await api.post('https://backend-quiz-mindx.herokuapp.com/auth/login', {
+            const res = await api.post('https://backendquizapp.onrender.com/auth/login', {
                 "email": `"${Email}"`,
                 "password": `"${Password}"`
             });
@@ -33,6 +36,13 @@ const SignInScreen = ({ navigation }) => {
             console.log(res.data);
         } catch (err) {
             console.log(err);
+            if (err.response.data?.message) {
+                Alert.alert(err.response.data.message);
+            }
+            else {
+                Alert.alert(err.message);
+            }
+
         }
     }
 
@@ -105,7 +115,7 @@ const SignInScreen = ({ navigation }) => {
                             alert("Password is empty");
                         }
                         else {
-                            onLogin({Email, Password})
+                            onLogin({ Email, Password })
                         }
 
 

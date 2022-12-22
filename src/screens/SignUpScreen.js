@@ -37,6 +37,7 @@ const SignUpScreen = ({ navigation }) => {
             }
         } catch (err) {
             console.log(err);
+            Alert.alert(err.message);
         }
     }
     return (

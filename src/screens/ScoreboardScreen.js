@@ -1,10 +1,16 @@
 import React, { useEffect } from "react";
-import { SafeAreaView, StyleSheet, Text, ImageBackground, TouchableOpacity, BackHandler, View, Image, FlatList } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, ImageBackground, TouchableOpacity, BackHandler, View, Image, FlatList, Alert, ActivityIndicator } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteQuesCorrect, deleteReward } from "../redux/actions/deleteAction";
+import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import api from '../api/api';
 const ScoreBoardScreen = ({ navigation, route }) => {
     let [topUsers, setTopUsers] = React.useState([]);
+    const [user, setUser] = React.useState([]);
+    const [isLoading, setIsLoading] = React.useState(false);
+    const userInfo = useSelector((state) => state.userInfo.userInfo[0]);
+    var point = null
+    const [email, setEmail] = React.useState('');
     useEffect(() => {
         navigation.setOptions({
             headerShown: false,
@@ -12,14 +18,55 @@ const ScoreBoardScreen = ({ navigation, route }) => {
     }, []);
     useEffect(() => {
         getListTopUsers();
+        getUserProfile();
+
     }, []);
+    if (point == null) {
+        if (topUsers.length > 0 && user.email !== undefined) {
+            topUsers.forEach((element, index) => {
+                if (element.email == JSON.parse(user?.email)) {
+                    point = element.score
+
+                }
+            })
+        }
+    }
+    const getUserProfile = async () => {
+        try {
+            const res = await api.get('https://backendquizapp.onrender.com/user/profile',
+                {
+                    method: 'GET',
+                    headers: {
+                        Authorization: "Bearer " + userInfo.accessToken,
+                        id: userInfo.userId,
+                    },
+                }
+            ).finally(() => setIsLoading(false));
+            console.log('user Profile', JSON.parse(res.data.email));
+            setEmail(JSON.parse(res.data.email))
+            setUser(res.data)
+
+        } catch (err) {
+            console.log(err);
+            Alert.alert(err.message);
+        }
+    }
     const getListTopUsers = async () => {
         var temp = 0
         var point = 0
         try {
-            const res = await api.get('https://backend-quiz-mindx.herokuapp.com/user/top-winner');
+            const res = await api.get('https://backendquizapp.onrender.com/user/top-winner'
+                // ,
+                //     {
+                //         method: 'GET',
+                //         headers: {
+                //             Authorization: "Bearer "+ userInfo.accessToken,
+                //             id: userInfo.userId,
+                //         },
+                //     }
+            );
             console.log('Top 10 Users', res.data);
-
+            // console.log('Top 10 Users', JSON.parse(res.data.email));
             setTopUsers(res.data)
 
         } catch (err) {
@@ -35,16 +82,16 @@ const ScoreBoardScreen = ({ navigation, route }) => {
 
     const renderItem = ({ item }) => {
         return (
-            <View style={styles.item}>
+            <View style={[styles.item]}>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <Image style={{ width: 50, height: 50, borderRadius: 25 }} source={{ uri: item.avt }} />
                 </View>
-                <View style={[{ flexDirection: 'row', alignItems: 'center' }, styles.contentItem]}>
+                <View style={[{ flexDirection: 'row', alignItems: 'center', borderColor: item.email == email ? "#fff" : null, borderWidth: item.email == email ? 3 : null }, styles.contentItem]}>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', marginLeft: 10, color: "#fff" }}>{item.username}</Text>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', marginRight: 10, color: "rgba(246, 208, 80, 1)" }}>{item.score} GEMS</Text>
                     {/* <Image style={{ width: 50, height: 50 }} source={require('../img/coin.png')} /> */}
                 </View>
-            </View>
+            </View >
 
         )
     }
@@ -53,23 +100,32 @@ const ScoreBoardScreen = ({ navigation, route }) => {
             source={require('../img/home_bg.png')}
             style={{ flex: 1, alignItems: 'center', position: 'relative' }}>
             {/* <SafeAreaView style={styles.container}> */}
-            <View style={{ flex: 1, backgroundColor: "black", width: "100%", height: "100%", position: "absolute", opacity: 0.3 }}>
-            </View>
-            <View style={styles.container}>
-                <View style={styles.header}>
-                    <Text style={styles.headerText}>SCOREBOARD</Text>
-                    <Text style={[styles.headerText, { fontSize: 20 }]}>Top 10 Winners </Text>
-                </View>
-                <View style={{ width: "100%", height: "65%" }}>
-                    <FlatList
-                        data={topUsers}
-                        renderItem={renderItem}
-                    />
-                </View>
-                <View style={styles.bottom}>
-
-                </View>
-            </View>
+            {
+                isLoading ? <ActivityIndicator size="large" color="#fff" /> : (
+                    <>
+                        <View style={{ flex: 1, backgroundColor: "black", width: "100%", height: "100%", position: "absolute", opacity: 0.3 }}>
+                        </View>
+                        <View style={styles.container}>
+                            <EvilIcons name="user" size={50} color="white" style={{ position: 'absolute', top: 20, right: 20 }} onPress={() => navigation.goBack()} />
+                            <View style={styles.header}>
+                                <Text style={styles.headerText}>SCOREBOARD</Text>
+                                <Text style={[styles.headerText, { fontSize: 20 }]}>Top 10 Winners </Text>
+                            </View>
+                            <View style={{ width: "100%", height: "65%" }}>
+                                <FlatList
+                                    data={topUsers}
+                                    renderItem={renderItem}
+                                />
+                            </View>
+                            {
+                                <View style={styles.bottom}>
+                                    <Text style={{ fontSize: 25, color: "#fff", textAlign: "center" }}>YAYY! YOU HAVE WON <Text> {point} </Text>GEMS</Text>
+                                </View>
+                            }
+                        </View>
+                    </>
+                )
+            }
             {/* </SafeAreaView> */}
         </ImageBackground>
     );
